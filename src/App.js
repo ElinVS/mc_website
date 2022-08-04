@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import './App.css';
 
 import HomePage from './containers/HomePage';
+import NavBar from './components/NavBar';
 
 import BioContainer from './containers/BioContainer';
 import ContactContainer from './containers/ContactContainer';
@@ -21,20 +22,26 @@ function App() {
   return (
   <>
 
+  
+
   <Router>
+
+  <NavBar></NavBar>
 
     <Routes>
     
-  <Route exact path='/'>
-   <HomePage/>
+  <Route exact path='/' element={
+    <HomePage/>
+  }>
    </Route>
 
-  <Route path='/Bio'>
-  <BioContainer/>
+  <Route path='/Bio' element={
+    <BioContainer/>
+  }>
   </Route>
 
   
-  <Route path='/Contact'>
+  {/* <Route path='/Contact'>
   <ContactContainer/>
   </Route>
 
@@ -61,7 +68,7 @@ function App() {
 
   <Route path='Snowden'>
   <SnowdenContainer/>
-  </Route>
+  </Route> */}
   
 
 
