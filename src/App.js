@@ -1,4 +1,6 @@
 
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+
 import './App.css';
 
 import HomePage from './containers/HomePage';
@@ -19,15 +21,55 @@ function App() {
   return (
   <>
 
+  <Router>
+
+    <Routes>
+    
+  <Route exact path='/'>
    <HomePage/>
-   <BioContainer/>
-   <ContactContainer/>
-   <ReleasesContainer/>
-   <InstallationsContainer/>
-   Work
+   </Route>
+
+  <Route path='/Bio'>
+  <BioContainer/>
+  </Route>
+
+  
+  <Route path='/Contact'>
+  <ContactContainer/>
+  </Route>
+
+  <Route path='/Releases'>
+  <ReleasesContainer/>
+  </Route>
+
+  
+  <Route path='/Installations'>
+  <InstallationsContainer/>
+  </Route>
+
+  <Route path='/Work'>
+  <WorkContainer/>
+  </Route>
+
+  <Route path='/Film'>
+  <FilmContainer/>
+  </Route>
+
+  <Route path='/Live'>
+  <LiveContainer/>
+  </Route>
+
+  <Route path='Snowden'>
+  <SnowdenContainer/>
+  </Route>
   
 
 
+
+   </Routes>
+
+   </Router>
+  
 
   </>
   );
