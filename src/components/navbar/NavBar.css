@@ -1,0 +1,16 @@
+.navbar-container {
+    display:flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    gap:1em;
+    padding:0.5em;
+   
+}
+
+.navbar-links{
+    color:#121212;
+    font-size: 0.8em;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+}
