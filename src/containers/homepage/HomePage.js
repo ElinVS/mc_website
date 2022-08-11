@@ -28,7 +28,7 @@ const HomePage = () => {
       </div>
 
    
-      
+
 
     </section>
 
@@ -41,7 +41,6 @@ const HomePage = () => {
         <img src={matt_jag_spotlight} alt='artist-with-guitar' className='matt-jag-spotlight-img'></img>
       </div>
     </section>
-
 
 
    
