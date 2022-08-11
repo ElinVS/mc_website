@@ -1,12 +1,38 @@
-.homepage-page{
-    /* background-color: #DFE2E2; */
+
+/* homepage sections here */
+
+
+.homepage-page-section-one{
     background-image: url('/src/assets/homepage_images/texture.jpeg');
-   background-size: cover;
-   background-repeat: no-repeat;
-   min-height: 100vh;
-   background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
    
 }
+
+.homepage-page-section-two{
+    min-height: 50vh;  
+}
+
+.homepage-page-section-three{
+    background-color: #ddd;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-attachment: fixed;
+   
+}
+
+.letter-section{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    position:relative;
+    z-index: 1;
+}
+
+/* image styling here */
 
 .img-container{
     display:flex;
@@ -23,9 +49,17 @@
 
 .matt-jag-spotlight-img{
     max-width: 100vh;
-    min-height: 100vh;
-    background-size: cover;  
+    min-height: 100vh;       
 }
+
+/* letter styling here */
+
+.letter-m{
+    z-index: 1;
+    color: #ffff;
+}
+
+
 
 
   
