@@ -1,0 +1,31 @@
+.homepage-page{
+    /* background-color: #DFE2E2; */
+    background-image: url('/src/assets/homepage_images/texture.jpeg');
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 100vh;
+   background-attachment: fixed;
+   
+}
+
+.img-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texture-img{
+    max-width: 100vh;
+    min-height: 100vh;
+    background-size: cover;  
+}
+
+.matt-jag-spotlight-img{
+    max-width: 100vh;
+    min-height: 100vh;
+    background-size: cover;  
+}
+
+
+  

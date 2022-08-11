@@ -5,7 +5,7 @@ import '../navbar/NavBar.css'
 const NavBar = () => {
   return (
 
-    <nav>
+    <nav className='navbar'>
 
       <div className='navbar-container'>
 
@@ -16,7 +16,7 @@ const NavBar = () => {
                     
                     <Link className="navbar-links" to="/work"> Work  </Link>
 
-                    {/* this to be styled seperatly to the rest of the navbar-links */}
+                    {/* this link to be styled seperatly to the rest of the navbar-links */}
                     <Link className="navbar-links" to="/"> MC  </Link>
 
       </div>
