@@ -2,15 +2,26 @@
     display:flex;
     justify-content: flex-end;
     align-self: flex-end;
+    align-items: baseline;
     gap:1em;
-    padding:0.5em;
+    padding: 1em 1em 5em 0em;
+    background-color: #ddd;
    
 }
 
 .navbar-links{
     color:#121212;
-    font-size: 0.8em;
+    font-size: 1em;
     list-style: none;
     text-decoration: none;
     cursor: pointer;
+}
+
+#home-link{
+    color:#121212;
+    font-size: 1em;
+    list-style: none;
+    text-decoration: none;
+    cursor: pointer;
+
 }

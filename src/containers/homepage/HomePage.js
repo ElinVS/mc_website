@@ -7,28 +7,45 @@ import '../homepage/HomePage.css'
 
 
 const HomePage = () => {
+
+ 
   return (
     <>
 
-    <section className='homepage-page-section-one'>
-      <div className='img-container'>
-        <img src={texture} alt='abstract-image-of-paper-waves' className='texture-img'>
-        </img>
+  
 
-        <section className='letter-section'>
-      <div className='letter-m'>M</div>
-      <div className='letter-m'>A</div>
-      <div className='letter-m'>T</div>
-      <div className='letter-m'>T</div>
-      <div className='letter-m'>H</div>
-      <div className='letter-m'>E</div>
-      <div className='letter-m'>W</div>
-    </section>
+    <section className='homepage-page-section-one'>
+
+      <div className='img-container'>
+        {/* <img src={texture} alt='abstract-image-of-paper-waves' className='texture-img'/> */}
+      
+      <div className='letter-sections'>
+
+        <section className='letter-section-firstname'>
+          <div className='letter-m'>M</div>
+          <div className='letter-a'>A</div>
+          <div className='letter-t'>T</div>
+          <div className='letter-tt'>T</div>
+          <div className='letter-h'>H</div>
+          <div className='letter-e'>E</div>
+          <div className='letter-w'>W</div>
+      </section>
+
+      <section className='letter-section-lastname'>
+          <div className='letter-c'>C</div>
+          <div className='letter-o'>O</div>
+          <div className='letter-l'>L</div>
+          <div className='letter-ll'>L</div>
+          <div className='letter-i'>I</div>
+          <div className='letter-n'>N</div>
+          <div className='letter-g'>G</div>
+          <div className='letter-s'>S</div>
+      </section>
 
       </div>
-
-   
-
+      
+      
+      </div>
 
     </section>
 
@@ -42,8 +59,6 @@ const HomePage = () => {
       </div>
     </section>
 
-
-   
 
     </>
   )

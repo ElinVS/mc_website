@@ -3,43 +3,66 @@
 
 
 .homepage-page-section-one{
-    background-image: url('/src/assets/homepage_images/texture.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url('/src/assets/homepage_images/texturehorizontal.jpeg')  ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    background-repeat:no-repeat; 
     min-height: 100vh;
-    background-attachment: fixed;
-   
+    background-attachment: fixed; 
 }
 
 .homepage-page-section-two{
-    min-height: 50vh;  
+    min-height: 50vh; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd;
 }
 
 .homepage-page-section-three{
     background-color: #ddd;
+    /* background-image: url('/src/assets/homepage_images/texture.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
-    background-attachment: fixed;
+    background-attachment: fixed; */
    
 }
 
-.letter-section{
+.letter-sections{
+   
+    position: absolute;
+}
+
+.letter-section-firstname {
     display:flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     position:relative;
-    z-index: 1;
+    font-size: 5em;
+    
+}
+
+.letter-section-lastname{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    font-size: 5em; 
+    
 }
 
 /* image styling here */
 
 .img-container{
     display:flex;
-    justify-content: center;
-    align-items: center;
-
+    justify-content: left;
+    align-items: center; 
+    
 }
+
 
 .texture-img{
     max-width: 100vh;
@@ -49,15 +72,82 @@
 
 .matt-jag-spotlight-img{
     max-width: 100vh;
-    min-height: 100vh;       
+    min-height: 100vh; 
+         
 }
 
-/* letter styling here */
+/* letter matthew styling here */
 
 .letter-m{
-    z-index: 1;
-    color: #ffff;
+    color: #D5C3A7;
+      
 }
+
+.letter-a{
+    color: #D5C3A7;
+     
+}
+
+.letter-t{
+    color: #D5C3A7;  
+}
+
+.letter-tt{
+    color: #D5C3A7;
+}
+
+.letter-h{
+    color: #D5C3A7;
+
+}
+
+.letter-e{
+    color: #D5C3A7; 
+}
+
+.letter-w{
+    color: #D5C3A7;
+ 
+}
+
+/* letter collings styling here */
+
+.letter-c{
+    color: #cfb893;
+}
+
+.letter-o{
+    color: #cfb893;     
+}
+
+.letter-l{
+    color: #cfb893;  
+}
+
+.letter-ll{
+    color: #cfb893; 
+}
+
+.letter-i{
+    color:  #cfb893;
+}
+
+.letter-n{
+    color:  #cfb893; 
+}
+
+.letter-g{
+    color:  #cfb893; 
+}
+
+.letter-s{
+    color:  #cfb893;
+}
+
+
+
+/* animations here */
+
 
 
 

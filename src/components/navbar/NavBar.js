@@ -17,7 +17,7 @@ const NavBar = () => {
                     <Link className="navbar-links" to="/work"> Work  </Link>
 
                     {/* this link to be styled seperatly to the rest of the navbar-links */}
-                    <Link className="navbar-links" to="/"> MC  </Link>
+                    <Link id="home-link" to="/"> MC  </Link>
 
       </div>
 
