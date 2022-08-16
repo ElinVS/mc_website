@@ -62,13 +62,7 @@ const HomePage = () => {
     </section>
 
     <section className='homepage-section-four'> 
-      <div className=''>
-        <img src={foley_scrape_bw_02} />
-      </div>
-      <div>
-        <img src={matt_ja_closeup} />
-      </div>
-      
+     
       
     </section>
 
