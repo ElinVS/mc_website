@@ -1,11 +1,9 @@
 .navbar-container {
     display:flex;
     justify-content: flex-end;
-    align-self: flex-end;
-    align-items: baseline;
     gap:1em;
-    padding: 1em 1em 5em 0em;
-    background-color: #ddd;
+    padding: 5em 1em 1em 0em;
+    background-color:#ddd;
    
 }
 

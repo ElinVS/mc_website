@@ -2,7 +2,7 @@
 /* homepage sections here */
 
 
-.homepage-page-section-one{
+.homepage-section-one{
     background-image: url('/src/assets/homepage_images/texturehorizontal.jpeg')  ; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -13,29 +13,53 @@
     background-attachment: fixed; 
 }
 
-.homepage-page-section-two{
+.homepage-section-two{
     min-height: 50vh; 
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: #ddd;
+    background-color: #A3A09B;
 }
 
-.homepage-page-section-three{
-    background-color: #ddd;
+.homepage-section-three{
+    background-color: #A3A09B;
+    
+    
 }
 
-.letter-sections{
+.homepage-section-four{
+    background-image: url('/src/assets/homepage_images/wallshadows.jpeg')  ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    background-repeat:no-repeat; 
+    min-height: 100vh;
+    background-attachment: fixed; 
+}
+
+.letter-section-div-one{
+    display:flex;
+    justify-content: left;
+    align-items: center; 
+    
+}
+
+.letter-section-div-two{
     position: relative;
-    padding-left: 1em;
+    padding: 5em 0em 0em 5em;
+    
 }
 
 .letter-section-firstname {
     display:flex;
     justify-content: center;
     align-items: center;
-    position:relative;
+   
+    white-space: nowrap;
     font-size: 5em;
+    line-height: 6vh;
+    letter-spacing: 0.01em;
     
 }
 
@@ -43,24 +67,20 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    position:relative;
-    font-size: 5em; 
+    
+    white-space: nowrap;
+    font-size: 5em;
+    letter-spacing: 0.01em;
     
 }
 
 /* image styling here */
 
-.img-container-one{
-    display:flex;
-    justify-content: left;
-    align-items: center; 
-    
-}
-.img-container-two{
+
+.img-container-guitar{
     display:flex;
     justify-content: center;
     align-items: center; 
-    
 }
 
 .texture-img{
@@ -71,20 +91,21 @@
 
 .matt-jag-spotlight-img{
     max-width: 100vh;
-    min-height: 100vh; 
-         
+    min-height: 100vh;       
 }
+
+
 
 /* letter matthew styling here */
 
 .letter-m{
     color: #D5C3A7;
-      
+   
 }
 
 .letter-a{
-    color: #D5C3A7;
-     
+    color: #D5C3A7; 
+    
 }
 
 .letter-t{
@@ -97,7 +118,6 @@
 
 .letter-h{
     color: #D5C3A7;
-
 }
 
 .letter-e{
@@ -106,46 +126,54 @@
 
 .letter-w{
     color: #D5C3A7;
- 
 }
 
 /* letter collings styling here */
 
 .letter-c{
-    color: #cfb893;
+    color:  #cfb893;
 }
 
 .letter-o{
-    color: #cfb893;     
+    color:  #cfb893;  
 }
 
 .letter-l{
-    color: #cfb893;  
+    color:  #cfb893;  
 }
 
 .letter-ll{
-    color: #cfb893; 
+    color:  #cfb893;
 }
 
 .letter-i{
     color:  #cfb893;
+
 }
 
 .letter-n{
-    color:  #cfb893; 
+    color:  #cfb893;
+    
 }
 
 .letter-g{
-    color:  #cfb893; 
+    color:  #cfb893;
+   
 }
 
 .letter-s{
     color:  #cfb893;
+
 }
 
 
-
 /* animations here */
+
+
+
+
+
+
 
 
 

@@ -1,8 +1,10 @@
 import React from 'react'
-import texture from '../../assets/homepage_images/texture.jpeg'
-import matt_jag_spotlight from '../../assets/homepage_images/matt_jag_spotlight.jpg'
-import '../homepage/HomePage.css'
+import { Helmet } from 'react-helmet'
 
+import matt_jag_spotlight from '../../assets/homepage_images/matt_jag_spotlight.jpg'
+import foley_scrape_bw_02 from '../../assets/homepage_images/foley_scrape_bw_02.jpg'
+import matt_ja_closeup from '../../assets/homepage_images/matt_ja_closeup.jpg'
+import '../homepage/HomePage.css'
 
 
 
@@ -12,12 +14,15 @@ const HomePage = () => {
   return (
     <>
 
-    <section className='homepage-page-section-one'>
+    <Helmet>
+      <title>Matthew Collings</title>
+    </Helmet>
 
-      <div className='img-container-one'>
-        {/* <img src={texture} alt='abstract-image-of-paper-waves' className='texture-img'/> */}
+    <section className='homepage-section-one'>
+
+       <div className='letter-section-div-one'>
       
-        <div className='letter-sections'>
+        <div className='letter-section-div-two'> 
 
           <section className='letter-section-firstname'>
             <div className='letter-m'>M</div>
@@ -39,26 +44,40 @@ const HomePage = () => {
             <div className='letter-g'>G</div>
             <div className='letter-s'>S</div>
           </section>
-
+          
         </div>
       
-      </div>
+      </div> 
 
     </section>
 
-    <section className='homepage-page-section-two'>
+    <section className='homepage-section-two'>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     </section>
 
-    <section className='homepage-page-section-three'>
-      <div className='img-container-two'>
-        <img src={matt_jag_spotlight} alt='artist-with-guitar' className='matt-jag-spotlight-img'></img>
+    <section className='homepage-section-three'>
+      <div className='img-container-guitar'>
+        <img src={matt_jag_spotlight} alt='artist-with-guitar' className='matt-jag-spotlight-img'/>
       </div>
     </section>
 
+    <section className='homepage-section-four'> 
+      <div className=''>
+        <img src={foley_scrape_bw_02} />
+      </div>
+      <div>
+        <img src={matt_ja_closeup} />
+      </div>
+      
+      
+    </section>
 
     </>
   )
 }
 
 export default HomePage
+
+
+
+

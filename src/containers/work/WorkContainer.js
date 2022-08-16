@@ -1,8 +1,15 @@
 import React from 'react'
 import {Link} from "react-router-dom"
+import { Helmet } from 'react-helmet'
 
 const WorkContainer = () => {
   return (
+
+    <>
+
+    <Helmet>
+      <title>Matthew Collings</title>
+    </Helmet>
 
     <div>
 
@@ -19,6 +26,8 @@ const WorkContainer = () => {
       SHOULD WORK  BE A DROPDOWN MENU INSTEAD?
       
     </div>
+
+    </>
 
   )
 }
