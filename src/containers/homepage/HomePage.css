@@ -23,17 +23,11 @@
 
 .homepage-page-section-three{
     background-color: #ddd;
-    /* background-image: url('/src/assets/homepage_images/texture.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    background-attachment: fixed; */
-   
 }
 
 .letter-sections{
-   
-    position: absolute;
+    position: relative;
+    padding-left: 1em;
 }
 
 .letter-section-firstname {
@@ -56,13 +50,18 @@
 
 /* image styling here */
 
-.img-container{
+.img-container-one{
     display:flex;
     justify-content: left;
     align-items: center; 
     
 }
-
+.img-container-two{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
 
 .texture-img{
     max-width: 100vh;
