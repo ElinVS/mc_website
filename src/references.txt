@@ -9,7 +9,7 @@ font-family: 'Corben', cursive;
 font-family: 'Nunito Sans', sans-serif;
 font-family: 'Red Hat Display', sans-serif;
 font-family: 'Yatra One', cursive;
-
+font-family: 'Familjen Grotesk', sans-serif;
 
 - colour codes:
 

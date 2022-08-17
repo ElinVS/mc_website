@@ -15,8 +15,14 @@ const ContactContainer = () => {
 
       <div className='contact-div-one'>
 
+        <span className='text-span-one'>
+        <p id='contact-text-one'>GENERAL ENQUIRES CONTACT ME HERE</p>
+        </span>
+      </div>
+
+      <div className='contact-div-two'>
       <p id='contact-text-one'>GENERAL ENQUIRES CONTACT ME HERE</p>
-      
+
       </div>
 
     </section>

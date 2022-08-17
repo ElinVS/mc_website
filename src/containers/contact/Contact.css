@@ -1,25 +1,53 @@
 /* contact sections go here */
 
 .contactpage-section-one{
-    background-color: #586766;
+    background-color: #ddd;
     min-height: 100vh;
 }
 
 /* div styling here */
 
-.contact-div-one{
+.contact-div-one {
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
+    align-self: baseline;
+    background-color: #ddd;
+   
+}
+    
+
+
+
+.contact-div-two{
+    display: flex;
+    justify-content: flex-start;
     align-self: center;
+    background-color: #586766;
+  
+    
 }
 
+.text-span-one{
+    
+   
+}
 
 /* text styling goes here */
 
 #contact-text-one{
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
+
     color: #D5C3A7;
+    font-size: 8em;
+    line-height: 0.9em;
+    width: calc(100% - 150px);
+
+    letter-spacing: -0.03em;
+
 }
+
+
+
 
 
 
