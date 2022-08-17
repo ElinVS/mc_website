@@ -2,6 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import matt_jag_spotlight from '../../assets/thirdmind/matt_jag_spotlight.jpg'
+import matt_tweak_01 from '../../assets/thirdmind/matt_tweak_01.jpg'
 import '../homepage/HomePage.css'
 
 
@@ -30,9 +31,7 @@ const HomePage = () => {
 
         </span>
 
-          
 
-          
         </div>
       
       </div> 
@@ -50,7 +49,10 @@ const HomePage = () => {
     </section>
 
     <section className='homepage-section-four'> 
+      
     </section>
+
+    <img src={matt_tweak_01} alt='performance-seen-from-above' className='performance-img'/>
 
     </>
   )

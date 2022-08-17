@@ -21,8 +21,7 @@ const ContactContainer = () => {
       </div>
 
       <div className='contact-div-two'>
-      <p id='contact-text-one'>GENERAL ENQUIRES CONTACT ME HERE</p>
-
+        <p id='contact-text-one'>GENERAL ENQUIRES CONTACT ME HERE</p>
       </div>
 
     </section>
