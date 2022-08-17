@@ -1,0 +1,22 @@
+FONTS AND COLOURS TO EXPERIMENT WITH HERE
+please add more as you find some good stuff
+
+- fonts available to use:
+
+font-family: 'Aboreto', cursive;
+font-family: 'Belleza', sans-serif;
+font-family: 'Corben', cursive;
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+font-family: 'Yatra One', cursive;
+
+
+- colour codes:
+
+#ddd    --> navbar
+#D5C3A7 --> matthew collings heading on homepage (font colour)
+#3A09B --> background colour hompage
+
+
+
+FONTS AND COLOURS ACTUALLY IMPLEMENTED HERE

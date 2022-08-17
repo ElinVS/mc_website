@@ -1,9 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-import matt_jag_spotlight from '../../assets/homepage_images/matt_jag_spotlight.jpg'
-import foley_scrape_bw_02 from '../../assets/homepage_images/foley_scrape_bw_02.jpg'
-import matt_ja_closeup from '../../assets/homepage_images/matt_ja_closeup.jpg'
+import matt_jag_spotlight from '../../assets/thirdmind/matt_jag_spotlight.jpg'
 import '../homepage/HomePage.css'
 
 
@@ -24,26 +22,16 @@ const HomePage = () => {
       
         <div className='letter-section-div-two'> 
 
-          <section className='letter-section-firstname'>
-            <div className='letter-m'>M</div>
-            <div className='letter-a'>A</div>
-            <div className='letter-t'>T</div>
-            <div className='letter-tt'>T</div>
-            <div className='letter-h'>H</div>
-            <div className='letter-e'>E</div>
-            <div className='letter-w'>W</div>
-          </section>
+        <span className='letter-section-fullname'>
 
-          <section className='letter-section-lastname'>
-            <div className='letter-c'>C</div>
-            <div className='letter-o'>O</div>
-            <div className='letter-l'>L</div>
-            <div className='letter-ll'>L</div>
-            <div className='letter-i'>I</div>
-            <div className='letter-n'>N</div>
-            <div className='letter-g'>G</div>
-            <div className='letter-s'>S</div>
-          </section>
+          <span>MATTHEW</span>
+          <span>COLLINGS</span>
+          
+
+        </span>
+
+          
+
           
         </div>
       
@@ -62,8 +50,6 @@ const HomePage = () => {
     </section>
 
     <section className='homepage-section-four'> 
-     
-      
     </section>
 
     </>
@@ -75,3 +61,23 @@ export default HomePage
 
 
 
+          {/* <section className='letter-section-firstname'>
+            <div className='letter-m'>M</div>
+            <div className='letter-a'>A</div>
+            <div className='letter-t'>T</div>
+            <div className='letter-tt'>T</div>
+            <div className='letter-h'>H</div>
+            <div className='letter-e'>E</div>
+            <div className='letter-w'>W</div>
+          </section>
+
+          <section className='letter-section-lastname'>
+            <div className='letter-c'>C</div>
+            <div className='letter-o'>O</div>
+            <div className='letter-l'>L</div>
+            <div className='letter-ll'>L</div>
+            <div className='letter-i'>I</div>
+            <div className='letter-n'>N</div>
+            <div className='letter-g'>G</div>
+            <div className='letter-s'>S</div>
+          </section> */}

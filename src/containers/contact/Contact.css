@@ -1,0 +1,26 @@
+/* contact sections go here */
+
+.contactpage-section-one{
+    background-color: #586766;
+    min-height: 100vh;
+}
+
+/* div styling here */
+
+.contact-div-one{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+
+/* text styling goes here */
+
+#contact-text-one{
+    font-family: 'Nunito Sans', sans-serif;
+    color: #D5C3A7;
+}
+
+
+
+

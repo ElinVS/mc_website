@@ -7,7 +7,7 @@ import HomePage from './containers/homepage/HomePage';
 import NavBar from './components/navbar/NavBar';
 
 import BioContainer from './containers/BioContainer';
-import ContactContainer from './containers/ContactContainer';
+import ContactContainer from './containers/contact/ContactContainer';
 import ReleasesContainer from './containers/ReleasesContainer';
 import InstallationsContainer from './containers/InstallationsContainer'
 
