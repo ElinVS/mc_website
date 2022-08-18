@@ -10,12 +10,14 @@ font-family: 'Nunito Sans', sans-serif;
 font-family: 'Red Hat Display', sans-serif;
 font-family: 'Yatra One', cursive;
 font-family: 'Familjen Grotesk', sans-serif;
+font-family: 'Heebo', sans-serif;
 
 - colour codes:
 
 #ddd    --> navbar
 #D5C3A7 --> matthew collings heading on homepage (font colour)
 #3A09B --> background colour hompage
+#586766 --> green, teal colour
 
 
 

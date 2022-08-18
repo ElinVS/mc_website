@@ -19,7 +19,6 @@
     justify-content: center;
     align-items: center;
     background-color: #A3A09B;
-    transition: all .5s ease-in;
 }
 
 .homepage-section-three{
@@ -38,11 +37,32 @@
     background-attachment: fixed; 
 }
 
+
+
+.homepage-section-five{
+    display:flex;
+    justify-content: center;;
+    
+    min-height: 10vh;
+    background-color: #F1F3F4;
+
+}
+.homepage-section-six{
+    
+    min-height: 100vh;
+    background-color: #D5C3A7;
+
+}
+
+
+
+
+
 .letter-section-div-one{
     display:flex;
     justify-content: left;
     align-items: center; 
-    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Heebo', sans-serif;
     color: #D5C3A7;
     
 }
@@ -51,27 +71,20 @@
     position: relative;
     padding-top:5em;
     
-    /* animation-name: movein;
-    display: inline-block;
-    transform: translateX(-100%);  */
-    /* animation-duration: 20s;
-    
-    animation-iteration-count: infinite;
-    /* filter: hue-rotate(130deg) contrast(30%) brightness(120%); */
     
 }
 
 
-.letter-section-fullname {
-
+.letter-section-fullname  {
     display:flex;
     
     white-space: nowrap;
     font-size: 8em;
     line-height: 6vh;
     letter-spacing: 0.01em
-
 }
+
+
 
 /* styling for individual letters */
 
@@ -109,20 +122,12 @@
     min-height: 100vh;       
 }
 
-/* .performance-img {
-    max-width: 100vh;
-    min-height: 100vh; 
-    
-} */
+
 
 /* letter matthew styling here */
 
 .letter-m{
     color: #D5C3A7;
-    /* animation:
-    bounce 2000ms
-    alternate infinite
-    cubic-bezier(.2, .65, .6, 1); */
    
 }
 
@@ -202,6 +207,12 @@
     }
   }
 
+   /* animation:
+    bounce 2000ms
+    alternate infinite
+    cubic-bezier(.2, .65, .6, 1); */
+
+
   @keyframes movein {
     0% {
       transform: translateX(90vw)
@@ -210,6 +221,14 @@
       transform: translateX(-150vw)
     }
   }
+
+    /* animation-name: movein;
+    display: inline-block;
+    transform: translateX(-100%);  */
+    /* animation-duration: 20s;
+    
+    animation-iteration-count: infinite;
+    /* filter: hue-rotate(130deg) contrast(30%) brightness(120%); */
  
 
 
@@ -217,10 +236,6 @@
 
 
 
-
-
-
-  
 
 
 

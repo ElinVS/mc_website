@@ -1,41 +1,38 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 import { Helmet } from 'react-helmet'
+import {motion} from 'framer-motion'
+
+
 
 import matt_jag_spotlight from '../../assets/thirdmind/matt_jag_spotlight.jpg'
-import matt_tweak_01 from '../../assets/thirdmind/matt_tweak_01.jpg'
+import wallshadows from '../../assets/images/wallshadows.jpeg'
 import '../homepage/HomePage.css'
 
 
 
 const HomePage = () => {
 
+
  
   return (
     <>
 
     <Helmet>
-      <title>Matthew Collings</title>
+      <title>Matthew Collings-Home</title>
     </Helmet>
 
     <section className='homepage-section-one'>
-
        <div className='letter-section-div-one'>
-      
         <div className='letter-section-div-two'> 
 
-        <span className='letter-section-fullname'>
-
-          <span>MATTHEW</span>
-          <span>COLLINGS</span>
-          
-
-        </span>
-
-
+        <div className='letter-section-fullname'>
+          <span >MATTHEW</span>
+          <span >COLLINGS</span>
+        </div> 
+        
         </div>
-      
       </div> 
-
     </section>
 
     <section className='homepage-section-two'>
@@ -49,12 +46,23 @@ const HomePage = () => {
     </section>
 
     <section className='homepage-section-four'> 
-      
     </section>
 
-    <img src={matt_tweak_01} alt='performance-seen-from-above' className='performance-img'/>
+    <section className='homepage-section-five'> 
+
+    <audio controls></audio>
+    </section>
+
+    <section className='homepage-section-six'>
+      <img src={wallshadows} alt='artist-with-guitar' className='matt-jag-spotlight-img'/>
+    </section>
+
+    
+
+
 
     </>
+
   )
 }
 
