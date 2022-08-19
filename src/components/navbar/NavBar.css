@@ -9,11 +9,11 @@
 
 .navbar-links{
     color:#121212;
-    font-size: 1em;
+    font-size: 1rem;
     list-style: none;
     text-decoration: none;
-    cursor: pointer;
     font-family: 'Heebo', sans-serif;
+  
     
 }
 
@@ -21,7 +21,7 @@
 
 #home-link{
     color:#121212;
-    font-size: 1em;
+    font-size: 1rem;
     list-style: none;
     text-decoration: none;
     cursor: pointer;

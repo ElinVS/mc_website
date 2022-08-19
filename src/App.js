@@ -16,12 +16,35 @@ import WorkContainer from './containers/work/WorkContainer';
 import FilmContainer from './containers/work/FilmContainer';
 import LiveContainer from './containers/work/LiveContainer';
 import SnowdenContainer from './containers/work/SnowdenContainer';
+import Cursor from './components/cursor/Cursor';
 
 
 
 function App() {
 
+  const [mousePosition, setMousePosition] = useState({
+    x:0,
+    y:0
+  });
 
+  const [cursorVariant, setCursorVariant] = useState('default')
+
+  useEffect (() => {
+
+    const mouseMove = e => {
+      setMousePosition({
+        x: e.clientX,
+        y: e.clientY
+      })
+    }
+
+    window.addEventListener("mousemove", mouseMove)
+
+    return () => {
+      window.removeEventListener("mousemove", mouseMove)
+    }
+
+  }, []);
 
 
   return (
@@ -29,7 +52,8 @@ function App() {
 
   <Router>
 
-  <NavBar></NavBar>
+  <NavBar cursorVariant={cursorVariant} setCursorVariant={setCursorVariant}/>
+  <Cursor mousePosition={mousePosition} cursorVariant={cursorVariant} setCursorVariant={setCursorVariant}/>
 
     <Routes>
     
