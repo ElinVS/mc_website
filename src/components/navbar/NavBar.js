@@ -5,7 +5,7 @@ import '../navbar/NavBar.css'
 const NavBar = ({ setCursorVariant}) => {
 
   const textEnter = () => {
-    setCursorVariant('text');
+    setCursorVariant('textNavBar');
 } 
 
 const textLeave = () => {

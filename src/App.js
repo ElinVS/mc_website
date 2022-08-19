@@ -52,13 +52,13 @@ function App() {
 
   <Router>
 
-  <NavBar cursorVariant={cursorVariant} setCursorVariant={setCursorVariant}/>
+  <NavBar setCursorVariant={setCursorVariant}/>
   <Cursor mousePosition={mousePosition} cursorVariant={cursorVariant} setCursorVariant={setCursorVariant}/>
 
     <Routes>
     
   <Route exact path='/' element={
-    <HomePage/>
+    <HomePage setCursorVariant={setCursorVariant}/>
   }>
    </Route>
 

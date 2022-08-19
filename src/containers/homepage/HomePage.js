@@ -11,7 +11,17 @@ import '../homepage/HomePage.css'
 
 
 
-const HomePage = () => {
+const HomePage = ({setCursorVariant}) => {
+
+  const textEnter = () => {
+    setCursorVariant('textHeader');
+} 
+
+const textLeave = () => {
+    setCursorVariant('default')
+}
+
+  
 
 
  
@@ -26,7 +36,7 @@ const HomePage = () => {
        <div className='letter-section-div-one'>
         <div className='letter-section-div-two'> 
 
-        <div className='letter-section-fullname'>
+        <div onMouseEnter={textEnter} onMouseLeave={textLeave} className='letter-section-fullname'>
           <span >MATTHEW</span>
           <span >COLLINGS</span>
         </div> 

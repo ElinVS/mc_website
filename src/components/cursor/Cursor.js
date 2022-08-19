@@ -4,18 +4,33 @@ import {motion} from 'framer-motion'
 
 const Cursor = ({mousePosition, cursorVariant, setCursorVariant}) => {
 
+
+// variants of animations on state update
+
     const variants = {
         default: {
             x: mousePosition.x - 8,
             y: mousePosition.y - 8,
         },
-        text: {
-            height:150,
-            width:150,
+        textNavBar: {
+            height:32,
+            width:32,
+            x: mousePosition.x - 10,
+            y: mousePosition.y - 10,
+            // backgroundColor: "#ddd",
+            
+            mixBlendMode: "difference"
+        },
+        textHeader: {
+            height: 150,
+            width: 150,
             x: mousePosition.x - 75,
             y: mousePosition.y - 75,
             
-            mixBlendMode: "difference"
+    
+            mixBlendMode: "spotlight"
+
+
         }
     }
 
