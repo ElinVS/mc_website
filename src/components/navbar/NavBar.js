@@ -8,7 +8,7 @@ const NavBar = ({ setCursorVariant}) => {
     setCursorVariant('textNavBar');
 } 
 
-const textLeave = () => {
+  const textLeave = () => {
     setCursorVariant('default')
 }
 
@@ -17,21 +17,21 @@ const textLeave = () => {
   return (
 
     <nav className='navbar'>
-
       <div className='navbar-container'>
 
-                    <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links" to="/bio"> Bio </Link> 
-                    <Link className="navbar-links" to="/contact"> Contact </Link> 
-                    <a className="navbar-links"> Store </a> 
-                    <Link className="navbar-links" to="/releases"> Releases </Link> 
-                    
-                    <Link className="navbar-links" to="/work"> Work  </Link>
+        <div className='navbar=left'>
+          <Link onMouseEnter={textEnter} onMouseLeave={textLeave} id="home-link" to="/"> MATTHEW COLLINGS  </Link>
+        </div>
 
-                    {/* this link to be styled seperatly to the rest of the navbar-links */}
-                    <Link id="home-link" to="/"> MC  </Link>
+        <div className='navbar-right'>
+          <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links" to="/bio"> BIO </Link> 
+          <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links" to="/contact"> CONTACT </Link> 
+          <a onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links"> STORE </a> 
+          <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links" to="/releases"> RELEASES </Link> 
+          <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links" to="/work"> WORK  </Link>           
+        </div>    
 
       </div>
-
     </nav>
   )
 }

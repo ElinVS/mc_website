@@ -2,23 +2,27 @@ import React from 'react'
 import { Helmet } from 'react-helmet'
 
 
+
 import '../contact/Contact.css'
 
 const ContactContainer = () => {
+
+  
+
+
+
   return (
     <>
 
     <Helmet>
-      <title>Matthew Collings</title>
+      <title>Matthew Collings - Contact</title>
     </Helmet>
     
     <section className='contactpage-section-one'>
 
-
       <div className='contact-div-one'>
-          <p id='contact-text-one'>GENERAL ENQUIRES CONTACT ME HERE</p>
+          <p id='contact-text-one'>GET IN TOUCH</p>
       </div>
-
 
       <div className='contact-div-two'>
         <p id='contact-text-one'>FOR BOOKINGS CLICK HERE</p>
@@ -28,7 +32,6 @@ const ContactContainer = () => {
         <p id='contact-text-one'>FOR BOOKINGS CLICK HERE</p>
       </div>
 
-    
 
     </section>
 

@@ -4,7 +4,6 @@
     background-color: #ddd;
     min-height: 100vh;
     
-
 }
 
 /* div styling here */
@@ -13,7 +12,7 @@
 
 .contact-div-one {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     
     background-color: #ddd;
@@ -26,16 +25,10 @@
     display: flex;
     justify-content: center;
     position: relative;
+    background-color: #5C5D57;
     
 }
 
-/* image styling here */
-
-.performance-img{
-    width:300px;
-    height:300px;
-
-}
 
 
 /* text styling goes here */
@@ -45,7 +38,7 @@
     position: relative;
     font-family: 'Familjen Grotesk', sans-serif;
     color: #D5C3A7;
-    font-size: 5em;
+    font-size: 5rem;
     line-height: 0.9em;
     width: calc(100% - 150px);
     letter-spacing: -0.03em;

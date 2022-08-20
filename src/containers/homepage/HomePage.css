@@ -11,6 +11,8 @@
     background-repeat:no-repeat; 
     min-height: 100vh;
     background-attachment: fixed; 
+    display: flex;
+    justify-content: center;
 }
 
 .homepage-section-two{
@@ -22,8 +24,7 @@
 }
 
 .homepage-section-three{
-    background-color: #A3A09B;
-    
+    background-color: #A3A09B;   
 }
 
 .homepage-section-four{
@@ -56,26 +57,23 @@
 
 .letter-section-div-one{
     display:flex;
-    justify-content: left;
     align-items: center; 
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Familjen Grotesk', sans-serif;
     color: #D5C3A7;
-    
+    padding-bottom: 20em;   
 }
 
-.letter-section-div-two{
-    position: relative;
-    padding-top:5em;  
-    
-}
 
 .letter-section-fullname  {
-    display:flex;
-    
     white-space: nowrap;
     font-size: 8rem;
     line-height: 6vh;
     letter-spacing: 0.01em;
+    mix-blend-mode: difference;
+}
+
+#collings-text{
+    color: #d7bd95;
 }
 
 
@@ -96,11 +94,14 @@
 .letter-section-lastname{
     display:flex; 
     
+    
     white-space: nowrap;
     font-size: 9em;
     letter-spacing: 0.01em;
     
 }
+
+
 
 /* image styling here */
 
@@ -114,6 +115,12 @@
 .matt-jag-spotlight-img{
     max-width: 100vh;
     min-height: 100vh;       
+}
+
+.wall-shadow-img{
+    max-width: 10vh;
+    min-height: 10vh; 
+    
 }
 
 
@@ -225,7 +232,9 @@
  
 
 
-/* text styling here */
+
+
+
 
 
 

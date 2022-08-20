@@ -11,17 +11,8 @@ import '../homepage/HomePage.css'
 
 
 
-const HomePage = ({setCursorVariant}) => {
+const HomePage = () => {
 
-  const textEnter = () => {
-    setCursorVariant('textHeader');
-} 
-
-const textLeave = () => {
-    setCursorVariant('default')
-}
-
-  
 
 
  
@@ -34,14 +25,14 @@ const textLeave = () => {
 
     <section className='homepage-section-one'>
        <div className='letter-section-div-one'>
-        <div className='letter-section-div-two'> 
+       
 
-        <div onMouseEnter={textEnter} onMouseLeave={textLeave} className='letter-section-fullname'>
-          <span >MATTHEW</span>
-          <span >COLLINGS</span>
+        <div className='letter-section-fullname'>
+          <span >MATTHEW </span>
+          <span id='collings-text'>COLLINGS</span>
         </div> 
         
-        </div>
+        
       </div> 
     </section>
 
@@ -64,7 +55,7 @@ const textLeave = () => {
     </section>
 
     <section className='homepage-section-six'>
-      <img src={wallshadows} alt='artist-with-guitar' className='matt-jag-spotlight-img'/>
+      {/* <img src={wallshadows} alt='wall-with-shadows' className='wall-shadows-img'/> */}
     </section>
 
     
