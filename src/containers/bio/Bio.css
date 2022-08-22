@@ -1,10 +1,44 @@
+.bio-page-section {
+    background-color: #ddd;
+    min-height: 100vh;
+    display: flex;
+   flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 .bio-image-container {
-    width: 300px;
-    height:300px;
+    
+
+    width: 600px;
+    height:600px;
+    margin: 0 0 0 5em;
 }
 
 .bio-image{
-    width: 300px;
-    height:300px;
+    width: 600px;
+    height:600px;
+    animation: fadein 5000ms infinite;
 
+}
+
+aside{
+    /* border: 1px solid #121212; */
+    margin: -12em 5em 0 2em;
+    
+}
+
+
+
+
+@keyframes fadein {
+    from{
+        opacity:0;
+    }
+    to{
+        opacity:1;
+    }
+    
 }

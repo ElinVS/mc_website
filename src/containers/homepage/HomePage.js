@@ -1,10 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import { Helmet } from 'react-helmet'
-import {motion} from 'framer-motion'
-
-
-
 
 import matt_jag_spotlight from '../../assets/thirdmind/matt_jag_spotlight.jpg'
 import wallshadows from '../../assets/images/wallshadows.jpeg'
@@ -77,9 +73,7 @@ const HomePage = ({setCursorVariant}) => {
     
     </section>
 
-    
-
-
+  
 
     </>
 

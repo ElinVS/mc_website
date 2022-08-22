@@ -18,7 +18,7 @@ import LiveContainer from './containers/work/LiveContainer';
 import SnowdenContainer from './containers/work/SnowdenContainer';
 
 import Cursor from './components/cursor/Cursor';
-
+import BackToTop from './components/backToTop/BackToTop';
 
 
 function App() {
@@ -30,6 +30,7 @@ function App() {
 
   const [cursorVariant, setCursorVariant] = useState('default')
 
+  
   useEffect (() => {
 
     const mouseMove = e => {
@@ -53,6 +54,8 @@ function App() {
 
   <Router>
 
+   
+
   <NavBar setCursorVariant={setCursorVariant}/>
   <Cursor mousePosition={mousePosition} cursorVariant={cursorVariant} setCursorVariant={setCursorVariant}/>
 
@@ -67,7 +70,6 @@ function App() {
     <BioContainer/>
   }>
   </Route>
-
   
   <Route path='/Contact' element={
     <ContactContainer/>
@@ -108,8 +110,15 @@ function App() {
 
     </Routes>
 
+   
+
+    
+
   </Router>
-  
+
+
+
+ 
 
   </>
   );

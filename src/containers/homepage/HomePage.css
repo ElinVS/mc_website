@@ -72,9 +72,9 @@
 
 
 .letter-section-fullname  {
-    white-space: nowrap;
+    white-space: wrap;
     font-size: 8rem;
-    line-height: 6vh;
+    line-height: 20vh;
     letter-spacing: 0.01em;
     mix-blend-mode: difference;
 
