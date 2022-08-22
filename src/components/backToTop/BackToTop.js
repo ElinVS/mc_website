@@ -1,11 +1,14 @@
 import React, {useState, useEffect} from 'react'
 import '../backToTop/BackToTop.css'
+import up_arrow_svg from '../../assets/images/up_arrow_svg.svg'
 
 const BackToTop = () => {
 
+  
+
     const [showBackToTop, setShowBackToTop] = useState(false)
 
-    useEffect = (()=> {
+    useEffect  (()=> {
 
         window.addEventListener("scroll", () => {
             if (window.scrollY > 100 ){
@@ -16,8 +19,8 @@ const BackToTop = () => {
             }
         })
 
+    }, []);
 
-    }, [])
 
     const scrollToTop = () =>{
         window.scrollTo({
@@ -30,7 +33,10 @@ const BackToTop = () => {
 
     <>
         <div>
-            <button onClick={scrollToTop}> hello </button>
+
+            {showBackToTop && (<img  src={up_arrow_svg} onClick={scrollToTop} className='up-arrow-image'/>)}
+
+            
         </div>
     </>
   )

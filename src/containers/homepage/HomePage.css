@@ -89,10 +89,6 @@
     color:  #806760 ;
 }
 
-
-
-
-
 /* styling for individual letters */
 
 .letter-section-firstname {
@@ -127,7 +123,8 @@
 
 .matt-jag-spotlight-img{
     max-width: 100vh;
-    min-height: 100vh;       
+    min-height: 100vh;  
+    
 }
 
 .wall-shadow-img{
@@ -243,7 +240,7 @@
     animation-iteration-count: infinite;
     /* filter: hue-rotate(130deg) contrast(30%) brightness(120%); */
  
-
+  
 
 
 

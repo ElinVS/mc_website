@@ -54,10 +54,11 @@ function App() {
 
   <Router>
 
+  
    
 
   <NavBar setCursorVariant={setCursorVariant}/>
-  <Cursor mousePosition={mousePosition} cursorVariant={cursorVariant} setCursorVariant={setCursorVariant}/>
+  <Cursor mousePosition={mousePosition} cursorVariant={cursorVariant}/>
 
     <Routes>
     
@@ -67,7 +68,7 @@ function App() {
    </Route>
 
   <Route path='/Bio' element={
-    <BioContainer/>
+    <BioContainer setCursorVariant={setCursorVariant}/>
   }>
   </Route>
   
@@ -110,9 +111,7 @@ function App() {
 
     </Routes>
 
-   
-
-    
+    <BackToTop></BackToTop>
 
   </Router>
 

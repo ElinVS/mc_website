@@ -18,8 +18,6 @@ const HomePage = ({setCursorVariant}) => {
     setCursorVariant('default')
 }
 
-
-
  
   return (
     <>
