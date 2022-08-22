@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import { Helmet } from 'react-helmet'
+import {motion} from 'framer-motion'
 
 
 
@@ -11,7 +12,15 @@ import '../homepage/HomePage.css'
 
 
 
-const HomePage = () => {
+const HomePage = ({setCursorVariant}) => {
+
+  const textEnter = () => {
+    setCursorVariant('textNavBar');
+} 
+
+  const textLeave = () => {
+    setCursorVariant('default')
+}
 
 
 
@@ -37,8 +46,10 @@ const HomePage = () => {
     </section>
 
     <section className='homepage-section-two'>
+      
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </section>
+     
+      </section>
 
     <section className='homepage-section-three'>
       <div className='img-container-guitar'>
@@ -56,6 +67,14 @@ const HomePage = () => {
 
     <section className='homepage-section-six'>
       {/* <img src={wallshadows} alt='wall-with-shadows' className='wall-shadows-img'/> */}
+
+          <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links-second" to="/bio"> BIO </Link> 
+          <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links-second" to="/contact"> CONTACT </Link> 
+          <a onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links-second"> STORE </a> 
+          <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links-second" to="/releases"> RELEASES </Link> 
+          <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links-second" to="/work"> WORK  </Link> 
+    
+    
     </section>
 
     

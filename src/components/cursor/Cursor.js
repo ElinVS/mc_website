@@ -17,7 +17,7 @@ const Cursor = ({mousePosition, cursorVariant, setCursorVariant}) => {
             width:32,
             x: mousePosition.x - 10,
             y: mousePosition.y - 10,
-            mixBlendMode: "hard-light"
+            mixBlendMode: "hard-light",
         },
 
     }

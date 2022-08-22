@@ -49,9 +49,16 @@
 
 }
 .homepage-section-six{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
     min-height: 100vh;
     background-color: #D5C3A7;
+    font-family: 'Heebo', sans-serif;
+    font-size: 5rem;
+    
 
 }
 
@@ -70,11 +77,19 @@
     line-height: 6vh;
     letter-spacing: 0.01em;
     mix-blend-mode: difference;
+
 }
 
 #collings-text{
     color: #d7bd95;
 }
+
+.navbar-links-second{
+    text-decoration: none;
+    color:  #806760 ;
+}
+
+
 
 
 
@@ -93,8 +108,6 @@
 
 .letter-section-lastname{
     display:flex; 
-    
-    
     white-space: nowrap;
     font-size: 9em;
     letter-spacing: 0.01em;

@@ -6,15 +6,12 @@
    
 }
 
-
-
-
 .navbar-links{
     color:#121212;
     font-size: 1rem;
     list-style: none;
     text-decoration: none;
-    font-family: 'Heebo', sans-serif; 
+    font-family: 'Familjen Grotesk', sans-serif;
     mix-blend-mode:luminosity ;
 }
 
