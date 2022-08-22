@@ -19,20 +19,29 @@ const BioContainer = () => {
   // }, [])
 
 
+  // useEffect (() => {
+
+  //   const imageId = setInterval (() => {
+  //     if (currentImage === bioimages.length ){
+  //       setCurrentImage(0);
+  //     }
+  //     else {
+  //       setCurrentImage(currentImage + 1);
+  //     }
+  //   }, 5000)
+
+  //   return () => clearInterval(imageId);
+
+  // }, [])
+
   useEffect (() => {
-
     const imageId = setInterval (() => {
-      if (currentImage === bioimages.length ){
-        setCurrentImage(0);
-      }
-      else {
-        setCurrentImage(currentImage + 1);
-      }
+      setCurrentImage((i) => {
+        return i === 2 ? 0 : i +1;
+      })
     }, 5000)
-
-    return () => clearInterval(imageId);
-
-  }, [])
+    return () => clearInterval(imageId)
+  }, []);
 
 
 
