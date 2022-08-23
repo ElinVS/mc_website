@@ -6,6 +6,7 @@ import './App.css';
 
 import HomePage from './containers/homepage/HomePage';
 import NavBar from './components/navbar/NavBar';
+import Footer from './components/footer/Footer';
 
 import BioContainer from './containers/bio/BioContainer';
 import ContactContainer from './containers/contact/ContactContainer';
@@ -18,7 +19,7 @@ import LiveContainer from './containers/work/LiveContainer';
 import SnowdenContainer from './containers/work/SnowdenContainer';
 
 import Cursor from './components/cursor/Cursor';
-import BackToTop from './components/backToTop/BackToTop';
+
 
 
 function App() {
@@ -111,7 +112,9 @@ function App() {
 
     </Routes>
 
-    <BackToTop></BackToTop>
+    <Footer/>
+
+  
 
   </Router>
 

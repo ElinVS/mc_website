@@ -16,7 +16,7 @@ font-family: 'Heebo', sans-serif;
 
 #ddd    --> navbar
 #D5C3A7 --> matthew collings heading on homepage (font colour)
-#3A09B --> background colour hompage
+#A3A09B --> background colour hompage
 
 
 colors from the texture photo:
@@ -30,6 +30,8 @@ Browny Orange: #3A3530
 
 Beigy Nude : #A69085
 Light Beige : #C1ADA6
+Greige : #A3A09B
+
 
 
 

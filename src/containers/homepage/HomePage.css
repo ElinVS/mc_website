@@ -7,8 +7,8 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size:cover;
-    background-repeat:no-repeat; 
+    background-size: cover;
+    background-repeat: no-repeat; 
     min-height: 100vh;
     background-attachment: fixed; 
     display: flex;
@@ -20,7 +20,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: #A3A09B;
+    background-color:  #A3A09B;
 }
 
 .homepage-section-three{
@@ -38,16 +38,20 @@
     background-attachment: fixed; 
 }
 
-
-
 .homepage-section-five{
     display:flex;
     justify-content: center;;
-    
     min-height: 10vh;
     background-color: #F1F3F4;
-
+    cursor:none;
+    
 }
+
+.audio{
+    cursor: none;
+    z-index: 2;
+}
+
 .homepage-section-six{
 
     display: flex;
@@ -58,8 +62,7 @@
     background-color: #D5C3A7;
     font-family: 'Heebo', sans-serif;
     font-size: 5rem;
-    
-
+  
 }
 
 .letter-section-div-one{
@@ -77,8 +80,8 @@
     line-height: 20vh;
     letter-spacing: 0.01em;
     mix-blend-mode: difference;
-
 }
+
 
 #collings-text{
     color: #d7bd95;
@@ -87,27 +90,6 @@
 .navbar-links-second{
     text-decoration: none;
     color:  #806760 ;
-}
-
-/* styling for individual letters */
-
-.letter-section-firstname {
-    display:flex;
-    
-    white-space: nowrap;
-    font-size: 8em;
-    line-height: 6vh;
-    letter-spacing: 0.01em;
-    
-}
-
-
-.letter-section-lastname{
-    display:flex; 
-    white-space: nowrap;
-    font-size: 9em;
-    letter-spacing: 0.01em;
-    
 }
 
 
@@ -131,78 +113,6 @@
     max-width: 10vh;
     min-height: 10vh; 
     
-}
-
-
-/* letter matthew styling here */
-
-.letter-m{
-    color: #D5C3A7;
-   
-}
-
-.letter-a{
-    color: #D5C3A7; 
-    
-}
-
-.letter-t{
-    color: #D5C3A7; 
-   
-}
-
-.letter-tt{
-    color: #D5C3A7;
-}
-
-.letter-h{
-    color: #D5C3A7;
-}
-
-.letter-e{
-    color: #D5C3A7; 
-}
-
-.letter-w{
-    color: #D5C3A7;
-}
-
-/* letter collings styling here */
-
-.letter-c{
-    color:  #D5C3A7;
-}
-
-.letter-o{
-    color:  #D5C3A7;  
-}
-
-.letter-l{
-    color:  #D5C3A7;  
-}
-
-.letter-ll{
-    color:  #D5C3A7;
-}
-
-.letter-i{
-    color:  #D5C3A7;
-
-}
-
-.letter-n{
-    color:  #D5C3A7;
-        
-}
-
-.letter-g{
-    color:  #D5C3A7;
-   
-}
-
-.letter-s{
-    color:  #D5C3A7;
- 
 }
 
 

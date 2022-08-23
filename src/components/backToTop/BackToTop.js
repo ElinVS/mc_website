@@ -4,7 +4,6 @@ import up_arrow_svg from '../../assets/images/up_arrow_svg.svg'
 
 const BackToTop = () => {
 
-  
 
     const [showBackToTop, setShowBackToTop] = useState(false)
 
@@ -28,6 +27,9 @@ const BackToTop = () => {
             behavior:'smooth',
         })
     }
+
+
+  
 
   return (
 

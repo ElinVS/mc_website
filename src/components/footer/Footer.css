@@ -1,0 +1,12 @@
+.footer-section {
+    background-color: #ddd;
+    min-height: 20vh;
+    
+}
+
+.back-to-top-div{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
