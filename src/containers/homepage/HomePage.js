@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState,useEffect} from 'react'
 import {Link} from "react-router-dom"
 import { Helmet } from 'react-helmet'
 
@@ -40,8 +40,10 @@ const HomePage = ({setCursorVariant}) => {
     </section>
 
     <section className='homepage-section-two'>
+
+      <p className='short-intro-bio'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      
      
       </section>
 

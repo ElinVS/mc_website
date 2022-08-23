@@ -4,9 +4,10 @@
     
 }
 
-.back-to-top-div{
+.footer-div{
     display:flex;
     justify-content: space-around;
     align-items: center;
+    padding: 3em 0 0 0;
     
 }

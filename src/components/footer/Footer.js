@@ -7,7 +7,7 @@ const Footer = () => {
     <>
     <section className='footer-section'>
         
-        <div className='back-to-top-div'>
+        <div className='footer-div'>
           
                 <p>@Matthew Coolings all rights reserved</p>
                 <p>Design & Code by Duke&Duncan </p>
