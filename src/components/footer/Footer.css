@@ -1,13 +1,13 @@
 .footer-section {
-    background-color: #ddd;
+    background-color: #D5C3A7;
     min-height: 20vh;
     
 }
 
 .footer-div{
     display:flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 3em 0 0 0;
+    justify-content: space-between;
+    align-items: center; 
+     padding: 3em 0 0 0;
     
 }

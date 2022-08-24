@@ -19,6 +19,7 @@ import LiveContainer from './containers/work/LiveContainer';
 import SnowdenContainer from './containers/work/SnowdenContainer';
 
 import Cursor from './components/cursor/Cursor';
+import BackToTop from './components/backToTop/BackToTop'
 
 
 
@@ -60,7 +61,7 @@ function App() {
 
   <NavBar setCursorVariant={setCursorVariant}/>
   <Cursor mousePosition={mousePosition} cursorVariant={cursorVariant}/>
-
+  <BackToTop/>
     <Routes>
     
   <Route exact path='/' element={

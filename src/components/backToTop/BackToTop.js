@@ -34,7 +34,7 @@ const BackToTop = () => {
   return (
 
     <>
-        <div>
+        <div className='arrow-div'>
 
             {showBackToTop && (<img  src={up_arrow_svg} onClick={scrollToTop} className='up-arrow-image'/>)}
 

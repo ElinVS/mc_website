@@ -1,5 +1,5 @@
 import React from 'react'
-import BackToTop from '../backToTop/BackToTop'
+
 import '../footer/Footer.css'
 
 const Footer = () => {
@@ -11,10 +11,8 @@ const Footer = () => {
           
                 <p>@Matthew Coolings all rights reserved</p>
                 <p>Design & Code by Duke&Duncan </p>
-                <p>instagram</p>
-                <p>soundcloud</p>
-                <p>twitter</p>
-                <BackToTop/>
+               
+               
         </div>
             
        
