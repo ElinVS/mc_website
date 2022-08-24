@@ -2,47 +2,130 @@
 
 .contactpage-section-one{
     background-color: #ddd;
-    min-height: 100vh;
-    
+    min-height: 90vh;
+    color: #D5C3A7;
+
 }
 
 /* div styling here */
 
+.grid-wrapper{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    " cd  cd1 cd2"
+    "cd3 cd4 cd5"
+    ;
+    margin: 0 0.2em 0 0.2em;
+ 
+  }
 
-.contact-div-one {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
+  .contact-div{
     background-color: #ddd;
-    min-height: 40vh; 
+    border-right: 1px solid #121212; 
+    grid-area: cd;  
+    display:flex;
+    justify-content: center;
+    align-items: center;
    
-}
+  }
+
     
+.contact-div-one {
+    background-color: #ddd;
+    border-right: 1px solid #121212; 
+    grid-area: cd1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ 
+}    
 
 .contact-div-two{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    background-color: #5C5D57;
-    
+    background-color: #ddd;
+    grid-area: cd2;
+    display:flex;
+    align-items: center;
+
 }
 
+.contact-div-three{
+    background-color: #ddd;
+    border-top: 1px solid #121212;
+    border-right: 1px solid #121212; 
+    grid-area: cd3;
+    display:flex;
+    align-items: center;
 
+}
+
+.contact-div-four{
+    background-color: #ddd;
+    border-top: 1px solid #121212;
+    border-right: 1px solid #121212; 
+    grid-area: cd4;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-div-five{
+    background-color: #ddd;
+    border-top: 1px solid #121212;
+    grid-area: cd5;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact-div:hover{
+    background-color: #121212;
+    color:#fff;
+    
+}
+.contact-div-one:hover{
+    background-color: #fff;
+    color:#121212;
+ 
+}
+.contact-div-two:hover{
+    background-color:#121212;
+    color:#fff;
+    
+}
+.contact-div-three:hover{
+    background-color: #fff;
+    color:#121212;
+   
+}
+.contact-div-four:hover{
+    background-color:#121212;
+    color:#fff;
+    
+}
+.contact-div-five:hover{
+    background-color:#fff;
+    color:#121221;
+
+}
 
 /* text styling goes here */
 
 #contact-text-one{
-   
-    position: relative;
+    /* position: relative; */
     font-family: 'Familjen Grotesk', sans-serif;
-    color: #D5C3A7;
-    font-size: 5rem;
+    font-size: 5em;
     line-height: 0.9em;
     width: calc(100% - 150px);
     letter-spacing: -0.03em;
 
 }
+
+
+
+
 
 
 

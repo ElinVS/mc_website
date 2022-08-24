@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 import matt_jag_spotlight from '../../assets/thirdmind/matt_jag_spotlight.jpg'
 import wallshadows from '../../assets/images/wallshadows.jpeg'
 import '../homepage/HomePage.css'
+import Footer from '../../components/footer/Footer'
 
 
 
@@ -71,7 +72,7 @@ const HomePage = ({setCursorVariant}) => {
           <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links-second" to="/work"> WORK  </Link> 
     
     </section>
-
+    <Footer/>
   
 
     </>

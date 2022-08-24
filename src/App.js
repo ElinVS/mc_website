@@ -6,7 +6,7 @@ import './App.css';
 
 import HomePage from './containers/homepage/HomePage';
 import NavBar from './components/navbar/NavBar';
-import Footer from './components/footer/Footer';
+
 
 import BioContainer from './containers/bio/BioContainer';
 import ContactContainer from './containers/contact/ContactContainer';
@@ -112,7 +112,7 @@ function App() {
 
     </Routes>
 
-    <Footer/>
+    
 
   
 
