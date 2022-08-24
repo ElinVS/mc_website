@@ -1,0 +1,38 @@
+.bio-page-section {
+    background-color: #ddd;
+    min-height: 100vh;
+    display: flex;
+   flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+aside{
+    /* border: 1px solid #121212; */
+    margin: -12em 5em 0 2em;   
+}
+
+.bio-text{
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+}
+
+
+/* image styling here */
+
+.bio-image-container {
+
+    width: 600px;
+    height:600px;
+    margin: 0 0 0 5em;
+}
+
+.bio-image{
+    width: 600px;
+    height:600px;
+    
+}
+
+
+/* animations here */
+

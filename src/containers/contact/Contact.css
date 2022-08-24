@@ -3,45 +3,43 @@
 .contactpage-section-one{
     background-color: #ddd;
     min-height: 100vh;
+    
 }
 
 /* div styling here */
 
+
 .contact-div-one {
     display: flex;
-    justify-content: baseline;
-    align-self: baseline;
+    justify-content: space-around;
+    align-items: center;
+    
     background-color: #ddd;
+    min-height: 40vh; 
    
 }
     
-
-
 
 .contact-div-two{
     display: flex;
-    justify-content: flex-start;
-    align-self: center;
-    background-color: #586766;
-  
+    justify-content: center;
+    position: relative;
+    background-color: #5C5D57;
     
 }
 
-.text-span-one{
-    
-   
-}
+
 
 /* text styling goes here */
 
 #contact-text-one{
+   
+    position: relative;
     font-family: 'Familjen Grotesk', sans-serif;
-
     color: #D5C3A7;
-    font-size: 8em;
+    font-size: 5rem;
     line-height: 0.9em;
     width: calc(100% - 150px);
-
     letter-spacing: -0.03em;
 
 }
