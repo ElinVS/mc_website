@@ -10,7 +10,7 @@ import Footer from './components/footer/Footer';
 
 import BioContainer from './containers/bio/BioContainer';
 import ContactContainer from './containers/contact/ContactContainer';
-import ReleasesContainer from './containers/ReleasesContainer';
+import ReleasesContainer from './containers/releases/ReleasesContainer';
 import InstallationsContainer from './containers/InstallationsContainer'
 
 import WorkContainer from './containers/work/WorkContainer';
