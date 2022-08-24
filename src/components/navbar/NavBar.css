@@ -1,14 +1,22 @@
+.navbar{
+    padding:0px;
+    margin:0px;
+    
+}
+
+
 .navbar-container {
     display:flex;
     justify-content: space-between;
     padding: 5em 1em 1em 1em;
     background-color:  #ddd;
+    
    
 }
 
 .navbar-links{
     color:#121212;
-    font-size: 1rem;
+    font-size: 1em;
     list-style: none;
     text-decoration: none;
     font-family: 'Familjen Grotesk', sans-serif;
@@ -18,7 +26,7 @@
 
 #home-link{
     color:#121212;
-    font-size: 1.1rem;
+    font-size: 1.1em;
     list-style: none;
     text-decoration: none;
     font-family: 'Familjen Grotesk', sans-serif;

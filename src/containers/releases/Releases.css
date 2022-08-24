@@ -76,7 +76,7 @@
 }
 
 .accordian-header-2:hover{
-    /* transform: scale(5%); */
+    transform: scale(5%);
     color: #40413f;
 }
 

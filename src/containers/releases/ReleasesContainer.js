@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 import hello_darkness from '../../assets/releases/hello_darkness.jpeg'
 import silence from '../../assets/releases/silence.jpeg'
 import splintered from '../../assets/releases/splintered.jpeg'
-import Accordion from 'react-bootstrap/Accordion'
+// import Accordion from 'react-bootstrap/Accordion'
 import ReactPlayer from 'react-player'
 import '../releases/Releases.css'
 
@@ -30,7 +30,7 @@ const ReleasesContainer = () => {
         sharing: false }
           }}}
       />
-      <Accordion defaultActiveKey="1">
+      {/* <Accordion defaultActiveKey="1">
         <Accordion.Item eventKey="0">
           <Accordion.Header className='accordian-header-1'>Info</Accordion.Header>
           <Accordion.Body className='accordian-body-1'>
@@ -45,7 +45,7 @@ const ReleasesContainer = () => {
           Artwork by Nullvoid
           </Accordion.Body>
         </Accordion.Item>
-      </Accordion> 
+      </Accordion>  */}
       </div>
     </div>
 
@@ -63,7 +63,7 @@ const ReleasesContainer = () => {
                 sharing: false }
               }}}
           />
-        <Accordion defaultActiveKey="1">
+        {/* <Accordion defaultActiveKey="1">
         <Accordion.Item eventKey="0">
           <Accordion.Header className='accordian-header-2'>Info</Accordion.Header>
           <Accordion.Body className = 'accordian-body-2'>
@@ -73,7 +73,7 @@ const ReleasesContainer = () => {
 
           </Accordion.Body>
         </Accordion.Item>
-      </Accordion> 
+      </Accordion>  */}
       </div>
     </div>
     <div className="section-1">
@@ -91,7 +91,7 @@ const ReleasesContainer = () => {
                 controls: false }
               }}}
           />
-        <Accordion defaultActiveKey="1">
+        {/* <Accordion defaultActiveKey="1">
         <Accordion.Item eventKey="0">
           <Accordion.Header className='accordian-header-1'>Info</Accordion.Header>
           <Accordion.Body className = 'accordian-body-1'>
@@ -101,7 +101,7 @@ const ReleasesContainer = () => {
 
           </Accordion.Body>
         </Accordion.Item>
-      </Accordion> 
+      </Accordion>  */}
       </div>
     </div>
     </div>

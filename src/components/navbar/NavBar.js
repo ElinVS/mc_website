@@ -19,7 +19,7 @@ const NavBar = ({ setCursorVariant}) => {
     <nav className='navbar'>
       <div className='navbar-container'>
 
-        <div className='navbar=left'>
+        <div className='navbar-left'>
           <Link onMouseEnter={textEnter} onMouseLeave={textLeave} id="home-link" to="/"> MATTHEW COLLINGS  </Link>
         </div>
 
