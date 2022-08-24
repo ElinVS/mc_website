@@ -1,3 +1,8 @@
+img{
+    margin-left:15px;
+    max-height:400px;
+}
+
 .img-info-flex{
     display: flex;
     flex-direction: row;
@@ -67,6 +72,7 @@
     cursor: pointer;
     font-family: 'Aboreto', cursive;
     margin-left: 10px; 
+    margin-top: 0;
 }
 
 .accordian-header-2:hover{
@@ -79,7 +85,7 @@
     color:#D5C3A7;
     font-size: 1em;
     font-family: 'Aboreto', cursive;  
-    width:650px;
+    width:600px;
     justify-content: center;
     margin-left: 10%;
     text-align: justify;
@@ -91,9 +97,11 @@
     color:#3A3D39;
     font-size: 1em;
     font-family: 'Aboreto', cursive;  
-    width:650px;
+    width:600px;
     justify-content: center;
     margin-left: 10%;
+    text-align: justify;
+    text-justify: auto;
 }
 
 button {

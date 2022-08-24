@@ -55,8 +55,8 @@ const ReleasesContainer = () => {
         <img width = '400px' src = {silence} alt = "Silence Is A Rhythm Too Cover" />
         <ReactPlayer className = "react-player"
           url = 'https://soundcloud.com/denovali/matthew-collings-toms?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
-          width = '100px'
-          height = '100px'
+          width = '400px'
+          height = '75px'
           config={{
              soundcloud: {
                 options: { 
