@@ -52,7 +52,7 @@ const ReleasesContainer = () => {
     <div className="section-2">
       <div className="img-info-flex">
       <h1 className='section-2-header'>Silence Is A Rhythm Too</h1>
-        <img width = '400px' src = {silence} alt = "Silence Is A Rhythm Too Cover" />
+        <img className = "album-cover" width = '400px' src = {silence} alt = "Silence Is A Rhythm Too Cover" />
         <ReactPlayer className = "react-player"
           url = 'https://soundcloud.com/denovali/matthew-collings-toms?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
           width = '400px'
