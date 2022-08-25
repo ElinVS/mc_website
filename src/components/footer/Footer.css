@@ -1,5 +1,5 @@
 .footer-section {
-    background-color: #D5C3A7;
+    background-color:  #f1efec;
     min-height: 20vh;
     
 }
@@ -8,6 +8,6 @@
     display:flex;
     justify-content: space-between;
     align-items: center; 
-     padding: 3em 0 0 0;
+    padding: 2em ;
     
 }

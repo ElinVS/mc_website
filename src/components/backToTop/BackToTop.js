@@ -10,7 +10,7 @@ const BackToTop = () => {
     useEffect  (()=> {
 
         window.addEventListener("scroll", () => {
-            if (window.scrollY > 100 ){
+            if (window.scrollY > 400 ){
                 setShowBackToTop(true)
             }
             else {
@@ -34,11 +34,13 @@ const BackToTop = () => {
   return (
 
     <>
+    <div className='flex'>
         <div className='arrow-div'>
 
             {showBackToTop && (<img  src={up_arrow_svg} onClick={scrollToTop} className='up-arrow-image'/>)}
 
-            
+        </div>
+
         </div>
     </>
   )

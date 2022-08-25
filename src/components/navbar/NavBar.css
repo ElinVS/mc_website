@@ -9,13 +9,14 @@
     display:flex;
     justify-content: space-between;
     padding: 5em 1em 1em 1em;
-    background-color:  #ddd;
+    background-color: #f1efec;
+    
     
    
 }
 
 .navbar-links{
-    color:#121212;
+    color: #121212;
     font-size: 1em;
     list-style: none;
     text-decoration: none;

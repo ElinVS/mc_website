@@ -18,11 +18,15 @@
     "cd3 cd4 cd5"
     ;
     margin: 0 0.2em 0 0.2em;
+    border-top: 1px solid #121212;
+    
+    
  
   }
 
   .contact-div{
-    background-color: #ddd;
+    
+
     border-right: 1px solid #121212; 
     grid-area: cd;  
     display:flex;
@@ -33,7 +37,7 @@
 
     
 .contact-div-one {
-    background-color: #ddd;
+    
     border-right: 1px solid #121212; 
     grid-area: cd1;
     display:flex;
@@ -43,7 +47,6 @@
 }    
 
 .contact-div-two{
-    background-color: #ddd;
     grid-area: cd2;
     display:flex;
     align-items: center;
@@ -51,9 +54,10 @@
 }
 
 .contact-div-three{
-    background-color: #ddd;
+    
     border-top: 1px solid #121212;
     border-right: 1px solid #121212; 
+    border-bottom: 1px solid #121212;
     grid-area: cd3;
     display:flex;
     align-items: center;
@@ -61,9 +65,10 @@
 }
 
 .contact-div-four{
-    background-color: #ddd;
+
     border-top: 1px solid #121212;
     border-right: 1px solid #121212; 
+    border-bottom: 1px solid #121212;
     grid-area: cd4;
     display:flex;
     justify-content: center;
@@ -71,8 +76,9 @@
 }
 
 .contact-div-five{
-    background-color: #ddd;
+    
     border-top: 1px solid #121212;
+    border-bottom: 1px solid #121212;
     grid-area: cd5;
     display:flex;
     justify-content: center;

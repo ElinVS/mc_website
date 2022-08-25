@@ -42,7 +42,7 @@ const HomePage = ({setCursorVariant}) => {
 
     <section className='homepage-section-two'>
 
-      <p className='short-intro-bio'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <p className='short-intro-bio'>Lorem ipsum dolor sit amet. Est voluptatem reiciendis et iusto officiis ut rerum veniam. Ea labore sunt ex architecto fuga qui provident maiores a perferendis doloribus. </p>
       
       
      
@@ -59,7 +59,7 @@ const HomePage = ({setCursorVariant}) => {
 
     <section className='homepage-section-five'> 
 
-      <audio controls className='audio'></audio>
+   
     </section>
 
     <section className='homepage-section-six'>

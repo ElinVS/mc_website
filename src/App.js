@@ -57,11 +57,10 @@ function App() {
   <Router>
 
   
-   
-
   <NavBar setCursorVariant={setCursorVariant}/>
   <Cursor mousePosition={mousePosition} cursorVariant={cursorVariant}/>
-  <BackToTop/>
+  <BackToTop/> 
+
     <Routes>
     
   <Route exact path='/' element={
@@ -113,13 +112,13 @@ function App() {
 
     </Routes>
 
-    
+   
 
   
 
   </Router>
 
-
+ 
 
  
 
