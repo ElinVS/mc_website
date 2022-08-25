@@ -21,12 +21,12 @@
     flex-flow: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #A3A09B;
+    background-color:#B0A89B
     
 }
 
 .homepage-section-three{
-    background-color: #A3A09B;
+  background-color:#B0A89B
 }
 
 .homepage-section-four{
@@ -54,14 +54,13 @@
 }
 
 .homepage-section-six{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 100%;
     min-height: 100vh;
     background-color: #f1efec;
     font-family: 'Heebo', sans-serif;
     font-size: 5rem;
-    padding: 0 0 0 1em;
+   
   
 }
 
@@ -69,7 +68,8 @@
     display:flex;
     align-items: center; 
     font-family: 'Familjen Grotesk', sans-serif;
-    color: #D5C3A7;
+    color:#d7bd95
+;
     padding-bottom: 20em;   
 }
 
@@ -91,11 +91,19 @@
 .navbar-links-second{
     text-decoration: none;
     color:  #806760 ;
+    padding: 0 0 0 1em;
+}
+
+.bio-div{
+  border-bottom: #806760 1px solid;
+  grid-template-areas: bio;
+  
 }
 
 .short-intro-bio{
-  color: #f1efec;
+  color: #121212;
   font-family: 'Heebo', sans-serif;
+  
 
 }
 

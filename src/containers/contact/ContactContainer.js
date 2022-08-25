@@ -4,7 +4,15 @@ import '../contact/Contact.css'
 
 
 
-const ContactContainer = () => {
+const ContactContainer = ({setCursorVariant}) => {
+
+  const textEnter = () => {
+    setCursorVariant('textContact');
+} 
+
+  const textLeave = () => {
+    setCursorVariant('default')
+}
 
 
 
@@ -14,6 +22,8 @@ const ContactContainer = () => {
     <Helmet>
       <title>Matthew Collings - Contact</title>
     </Helmet>
+
+    <section className='contact-page'>
     
     
     <section className='contactpage-section-one'>
@@ -21,31 +31,36 @@ const ContactContainer = () => {
  
 
 
-      <div className='grid-wrapper'>
+      <div  onMouseEnter={textEnter} onMouseLeave={textLeave} className='grid-wrapper'>
 
-
-        <div className='contact-div'> 
-          <p id='contact-text-one'>SPOTIFY</p>
-        </div>
-
-      <div className='contact-div-one'>
+      <div className='contact-div-general'>
         <p id='contact-text-one'>GENERAL ENQUIRES</p>
       </div>
 
-      <div className='contact-div-two'>
-        <p id='contact-text-one'>INSTAGRAM</p>
-      </div>
-      <div className='contact-div-three'>
-        <p id='contact-text-one'>BANDCAMP</p>
-      </div>
-      <div className='contact-div-four'>
+      <div className='contact-div-booking'>
         <p id='contact-text-one'> BOOKING CONTACT</p>
       </div>
-      <div className='contact-div-five'>
+
+
+      <div className='contact-div-spotify'> 
+          <p id='contact-text-one'>SPOTIFY</p>
+        </div>
+
+      <div className='contact-div-bandcamp'>
+        <p id='contact-text-one'>BANDCAMP</p>
+      </div>
+
+      <div className='contact-div-twitter'>
         <p id='contact-text-one'>TWITTER</p>
       </div>
 
+      <div className='contact-div-instagram'>
+        <p id='contact-text-one'>INSTAGRAM</p>
       </div>
+
+      </div>
+
+    </section>
 
     </section>
 

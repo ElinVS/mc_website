@@ -1,9 +1,17 @@
 /* contact sections go here */
 
+.contact-page{
+    background-color: #f1efec;
+    /* min-height: 100vh; */
+    padding: 5em 0 0 0;
+
+}
+
 .contactpage-section-one{
-    background-color: #ddd;
-    min-height: 90vh;
-    color: #D5C3A7;
+    background-color: #f1efec;
+    /* min-height: 50vh; */
+    color:  #806760 ;
+    
 
 }
 
@@ -11,124 +19,159 @@
 
 .grid-wrapper{
     display:grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
+    /* grid-template-rows: auto;
     grid-template-areas: 
-    " cd  cd1 cd2"
-    "cd3 cd4 cd5"
-    ;
-    margin: 0 0.2em 0 0.2em;
-    border-top: 1px solid #121212;
+    "general booking"
+    "spotify bandcamp"
+    "twitter instagram"
+    ; */
+    /* margin: 0 0.2em 0 0.2em; */
+    /* border-top: 1px solid #121212; */
+    
+    
+
+   
     
     
  
   }
 
-  .contact-div{
-    
+ 
 
-    border-right: 1px solid #121212; 
-    grid-area: cd;  
+    
+.contact-div-general {
+    /* grid-area: general; */
     display:flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid #121212;
+}  
+
+.contact-div-booking{
+
+    /* grid-area: booking; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #121212;
+
+}
+
+.contact-div-spotify{ 
+    /* grid-area: spotify;   */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px dotted #121212;
+    
+
+
    
   }
 
+.contact-div-bandcamp{
+   
+    /* grid-area: bandcamp; */
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    border-bottom: 1px solid #121212;
+
+
+}
+
+
+.contact-div-twitter{
     
-.contact-div-one {
-    
-    border-right: 1px solid #121212; 
-    grid-area: cd1;
+    /* grid-area: twitter; */
     display:flex;
     justify-content: center;
     align-items: center;
- 
-}    
-
-.contact-div-two{
-    grid-area: cd2;
-    display:flex;
-    align-items: center;
+    border-bottom: 1px solid #121212;
 
 }
 
-.contact-div-three{
-    
-    border-top: 1px solid #121212;
-    border-right: 1px solid #121212; 
-    border-bottom: 1px solid #121212;
-    grid-area: cd3;
-    display:flex;
-    align-items: center;
-
-}
-
-.contact-div-four{
-
-    border-top: 1px solid #121212;
-    border-right: 1px solid #121212; 
-    border-bottom: 1px solid #121212;
-    grid-area: cd4;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.contact-div-five{
-    
-    border-top: 1px solid #121212;
-    border-bottom: 1px solid #121212;
-    grid-area: cd5;
+.contact-div-instagram{
+    /* grid-area: instagram; */
     display:flex;
     justify-content: center;
     align-items: center;
 
 }
+/* hover effect here */
 
-.contact-div:hover{
+.contact-div-general:hover{
+    background-color:#121212;
+    color:#fff;
+    transition: transform 1s ease;
+    /* transform: translateY(-10%) scale(1); */
+    
+}
+
+.contact-div-booking:hover{
+    background-color:#121212;
+    color:#fff;
+    /* transition: transform 1s ease;
+    transform: translateY(-10%) scale(1); */
+    
+}
+
+.contact-div-spotify:hover{
     background-color: #121212;
     color:#fff;
+    transition: transform 1s ease;
+    transform: translateY(-5%) scale(1);
     
 }
-.contact-div-one:hover{
-    background-color: #fff;
-    color:#121212;
- 
-}
-.contact-div-two:hover{
+
+.contact-div-bandcamp:hover{
     background-color:#121212;
     color:#fff;
-    
-}
-.contact-div-three:hover{
-    background-color: #fff;
-    color:#121212;
+    /* transition: transform 1s ease;
+    transform: translateY(-10%) scale(1); */
    
 }
-.contact-div-four:hover{
+
+.contact-div-twitter:hover{
     background-color:#121212;
     color:#fff;
-    
-}
-.contact-div-five:hover{
-    background-color:#fff;
-    color:#121221;
+    /* transition: transform 1s ease;
+    transform: translate(10%) scale(1); */
 
 }
+
+
+.contact-div-instagram:hover{
+    background-color:#121212;
+    color:#fff;
+    /* transition: transform 1s ease;
+    transform: translateY(-10%) scale(1); */
+    
+}
+
+
+
 
 /* text styling goes here */
 
 #contact-text-one{
-    /* position: relative; */
-    font-family: 'Familjen Grotesk', sans-serif;
-    font-size: 5em;
+    
+    font-family: 'Heebo', sans-serif;
+    font-size: 5rem;
+    padding: 0 0 0 1em;
+    
     line-height: 0.9em;
     width: calc(100% - 150px);
     letter-spacing: -0.03em;
 
 }
 
+#contact-text-one:hover{
+    transition: transform 2s ease;
+    transform: translate(10%) scale(1.3);
+
+}
 
 
 

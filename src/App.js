@@ -4,9 +4,9 @@ import { useEffect, useState } from 'react';
 
 import './App.css';
 
-import HomePage from './containers/homepage/HomePage';
 import NavBar from './components/navbar/NavBar';
 
+import HomePage from './containers/homepage/HomePage';
 
 import BioContainer from './containers/bio/BioContainer';
 import ContactContainer from './containers/contact/ContactContainer';
@@ -74,7 +74,7 @@ function App() {
   </Route>
   
   <Route path='/Contact' element={
-    <ContactContainer/>
+    <ContactContainer setCursorVariant={setCursorVariant}/>
   }>
   </Route>
 
