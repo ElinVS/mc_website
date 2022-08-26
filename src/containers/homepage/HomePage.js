@@ -28,32 +28,26 @@ const HomePage = ({setCursorVariant}) => {
     </Helmet>
 
     <section className='homepage-section-one'>
-  
        <div className='letter-section-div-one'>
-       
-
         <div className='letter-section-fullname'>
           <span >MATTHEW </span>
           <span id='collings-text'>COLLINGS</span>
         </div> 
-        
-        
       </div> 
     </section>
 
-    <section className='homepage-section-two'>
-
-      <p className='short-intro-bio'>Lorem ipsum dolor sit amet. Est voluptatem reiciendis et iusto officiis ut rerum veniam. Ea labore sunt ex architecto fuga qui provident maiores a perferendis doloribus. </p>
-      
-      
-     
-      </section>
 
     <section className='homepage-section-three'>
-      <div className='img-container-guitar'>
-        <img src={matt_jag_spotlight} alt='artist-with-guitar' className='matt-jag-spotlight-img'/>
+      <div className='img-container-guitar'> 
+      <img src={matt_jag_spotlight} alt='artist-with-guitar' className='matt-jag-spotlight-img'/>
+        <aside className='homepage-section-short-bio'>
+          <p className='short-intro-bio'>Lorem ipsum dolor sit amet. Est voluptatem reiciendis et iusto officiis ut rerum veniam. Ea labore sunt ex architecto fuga qui provident maiores a perferendis doloribus. </p>
+        </aside>
+        
       </div>
     </section>
+
+  
 
     <section className='homepage-section-four'> 
     </section>

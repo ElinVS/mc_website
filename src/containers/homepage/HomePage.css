@@ -15,18 +15,18 @@
     justify-content: center;
 }
 
-.homepage-section-two{
+.homepage-section-short-bio{
     min-height: 50vh; 
     display:flex;
     flex-flow: wrap;
     justify-content: center;
     align-items: center;
-    background-color:#B0A89B
+    background-color: #C1BAA6;
     
 }
 
 .homepage-section-three{
-  background-color:#B0A89B
+  background-color: #C1BAA6
 }
 
 .homepage-section-four{
