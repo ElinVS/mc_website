@@ -27,6 +27,9 @@ const HomePage = ({setCursorVariant}) => {
       <title>Matthew Collings-Home</title>
     </Helmet>
 
+  
+
+
     <section className='homepage-section-one'>
        <div className='letter-section-div-one'>
         <div className='letter-section-fullname'>

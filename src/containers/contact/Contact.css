@@ -120,8 +120,8 @@
 .contact-div-spotify:hover{
     background-color: #121212;
     color:#fff;
-    transition: transform 1s ease;
-    transform: translateY(-5%) scale(1);
+    /* transition: transform 1s ease;
+    transform: translateY(-5%) scale(1); */
     
 }
 

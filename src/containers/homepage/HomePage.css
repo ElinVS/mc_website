@@ -2,6 +2,7 @@
 /* homepage sections here */
 
 
+
 .homepage-section-one{
     background-image: url('/src/assets/images/texturehorizontal.jpeg')  ; 
     -webkit-background-size: cover;
@@ -23,10 +24,12 @@
     align-items: center;
     background-color: #C1BAA6;
     
+    
 }
 
 .homepage-section-three{
-  background-color: #C1BAA6
+  background-color: #C1BAA6;
+  
 }
 
 .homepage-section-four{
