@@ -2,9 +2,11 @@ import React, {useState,useEffect} from 'react'
 import {Link} from "react-router-dom"
 import { Helmet } from 'react-helmet'
 
-import matt_jag_spotlight from '../../assets/thirdmind/matt_jag_spotlight.jpg'
-import wallshadows from '../../assets/images/wallshadows.jpeg'
 import '../homepage/HomePage.css'
+
+import matt_jag_spotlight from '../../assets/thirdmind/matt_jag_spotlight.jpg'
+
+
 import Footer from '../../components/footer/Footer'
 
 
@@ -39,14 +41,16 @@ const HomePage = ({setCursorVariant}) => {
       </div> 
     </section>
 
+  
+
+    <section className='homepage-section-short-bio'>
+          <p className='short-intro-bio'>Lorem ipsum dolor sit amet. Est voluptatem reiciendis et iusto officiis ut rerum veniam. Ea labore sunt ex architecto fuga qui provident maiores a perferendis doloribus. </p>
+    </section>
+
 
     <section className='homepage-section-three'>
       <div className='img-container-guitar'> 
-      <img src={matt_jag_spotlight} alt='artist-with-guitar' className='matt-jag-spotlight-img'/>
-        <aside className='homepage-section-short-bio'>
-          <p className='short-intro-bio'>Lorem ipsum dolor sit amet. Est voluptatem reiciendis et iusto officiis ut rerum veniam. Ea labore sunt ex architecto fuga qui provident maiores a perferendis doloribus. </p>
-        </aside>
-        
+        <img src={matt_jag_spotlight} alt='artist-with-guitar' className='matt-jag-spotlight-img'/>  
       </div>
     </section>
 

@@ -27,6 +27,7 @@
     
 }
 
+
 .homepage-section-three{
   background-color: #C1BAA6;
   
@@ -70,9 +71,9 @@
 .letter-section-div-one{
     display:flex;
     align-items: center; 
-    font-family: 'Familjen Grotesk', sans-serif;
-    color:#d7bd95
-;
+    font-family: 'Heebo', sans-serif;
+    color:#d7bd95;
+
     padding-bottom: 20em;   
 }
 
@@ -117,8 +118,9 @@
 
 .img-container-guitar{
     display:flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center; 
+    padding: 0 0 10em 0;
 }
 
 .matt-jag-spotlight-img{

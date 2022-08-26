@@ -11,7 +11,9 @@ font-family: 'Red Hat Display', sans-serif;
 font-family: 'Yatra One', cursive;
 font-family: 'Familjen Grotesk', sans-serif;
 font-family: 'Heebo', sans-serif;
+font-family: 'Shrikhand', cursive;
 
+font-family: 'Syne', sans-serif;
 - colour codes:
 
 #ddd    --> navbar
