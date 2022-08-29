@@ -3,6 +3,11 @@
 
 
 
+
+
+
+
+
 .homepage-section-one{
     background-image: url('/src/assets/images/texturehorizontal.jpeg')  ; 
     -webkit-background-size: cover;
@@ -22,7 +27,7 @@
     flex-flow: wrap;
     justify-content: center;
     align-items: center;
-    background-color: #C1BAA6;
+    background-color: #C5BA99;
     
     
 }
@@ -47,8 +52,10 @@
 .homepage-section-five{
     min-height: 10vh;
     background-color: #F1F3F4;
-   
     cursor:none;
+    
+    
+
     
 }
 
@@ -84,12 +91,16 @@
     line-height: 20vh;
     letter-spacing: 0.01em;
     mix-blend-mode: difference;
-   
+    animation: fadeIn 3s 1 forwards ease;
+
+
 }
 
 
 #collings-text{
     color: #d7bd95;
+    
+
 }
 
 .navbar-links-second{
@@ -107,6 +118,8 @@
 .short-intro-bio{
   color: #121212;
   font-family: 'Heebo', sans-serif;
+  transition: transform 1s ease;
+  transform:  opacity(1);
   
 
 }
@@ -120,7 +133,7 @@
     display:flex;
     justify-content:center;
     align-items: center; 
-    padding: 0 0 10em 0;
+   
 }
 
 .matt-jag-spotlight-img{
@@ -168,15 +181,6 @@
     /* filter: hue-rotate(130deg) contrast(30%) brightness(120%); */
  
   
-@keyframes fadein {
-  from{
-    opacity: 0;
-  }
-  to{
-    opacity:1;
-  }
-  
-}
 
 @keyframes rotate {
   from{
@@ -188,6 +192,15 @@
 
   }
   
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
 }
 
 

@@ -7,6 +7,7 @@ import './App.css';
 import NavBar from './components/navbar/NavBar';
 
 import HomePage from './containers/homepage/HomePage';
+import HomePage2 from './containers/homepage/HomePage2'
 
 import BioContainer from './containers/bio/BioContainer';
 import ContactContainer from './containers/contact/ContactContainer';
@@ -67,6 +68,13 @@ function App() {
     <HomePage setCursorVariant={setCursorVariant}/>
   }>
    </Route>
+
+  <Route  path='/Home' element={
+    <HomePage2 setCursorVariant={setCursorVariant}/>
+  }>
+   </Route>
+
+
 
   <Route path='/Bio' element={
     <BioContainer setCursorVariant={setCursorVariant}/>

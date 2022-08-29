@@ -11,6 +11,7 @@ import Footer from '../../components/footer/Footer'
 
 
 
+
 const HomePage = ({setCursorVariant}) => {
 
   const textEnter = () => {
@@ -29,10 +30,13 @@ const HomePage = ({setCursorVariant}) => {
       <title>Matthew Collings-Home</title>
     </Helmet>
 
+   
+
   
 
 
     <section className='homepage-section-one'>
+    
        <div className='letter-section-div-one'>
         <div className='letter-section-fullname'>
           <span >MATTHEW </span>
@@ -41,7 +45,7 @@ const HomePage = ({setCursorVariant}) => {
       </div> 
     </section>
 
-  
+    
 
     <section className='homepage-section-short-bio'>
           <p className='short-intro-bio'>Lorem ipsum dolor sit amet. Est voluptatem reiciendis et iusto officiis ut rerum veniam. Ea labore sunt ex architecto fuga qui provident maiores a perferendis doloribus. </p>
@@ -57,10 +61,13 @@ const HomePage = ({setCursorVariant}) => {
   
 
     <section className='homepage-section-four'> 
+    
     </section>
 
-    {/* <section className='homepage-section-five'> 
-    </section> */}
+    <section className='homepage-section-five'> 
+      <audio controls/>
+       
+    </section>
 
     <section className='homepage-section-six'>
       {/* <img src={wallshadows} alt='wall-with-shadows' className='wall-shadows-img'/> */}

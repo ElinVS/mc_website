@@ -2,6 +2,8 @@
     padding:0px;
     margin:0px;
     
+   
+    
 }
 
 
@@ -10,6 +12,8 @@
     justify-content: space-between;
     padding: 5em 1em 1em 1em;
     background-color: #f1efec;
+    
+
     
     
    
@@ -22,6 +26,7 @@
     text-decoration: none;
     font-family: 'Familjen Grotesk', sans-serif;
     mix-blend-mode:luminosity ;
+    
 }
 
 
