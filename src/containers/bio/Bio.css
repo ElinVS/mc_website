@@ -1,41 +1,96 @@
 .bio-page-section {
     min-height: 100vh;
     background-color:#f1efec;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1em;    
 }
 
-.bio-div-outer{
-    width: 100vh;
-    height: 100vh;
+/* header section here */
+
+.title-container-bio{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 0 0 0 1.8em;
+    
+}
+.title-container-bio-c{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 0 0 0 1.8em;
+    
+}
+
+#h1-title-bio{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.6em;
+    color: #CA5E48;
+    white-space: none;
+    transform: rotate(-90deg) translateY(100%);
+    transform-origin:bottom left;
+    left:0;
+    bottom: 0;
+    max-width: 100vh;
+    min-height:100vh;
+    position:fixed;
+}
+
+#h1-title-bio-c{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.6em;
+    color: #CA5E48;
+    white-space: none;
+    /* position:fixed; */
+}
+
+
+
+/*  */
+
+.bio-container{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+
+.portrait-img-container{
+    background-image: url('/src/assets/images/open.png');
+    /* background-size: cover; */
+    width:500px;
+    height:500px;
+    
+    
+}
+
+.portrait-text-container{
+    background-color: #f1efec;
+    border-bottom: 1px solid #121212;
+    width:500px;
+    height:500px;
+    display:flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.06em;
+
+}
+
+.press-text-container{
+    min-height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-
+    border-bottom: 1px solid #121212;
+    font-family: 'Heebo', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.06em;
 }
 
-.bio-div-inner{
-    width: 500px;
-    height: 700px;
-    background-color: pink;
-    background-size: cover;
 
-}
 
-.bio-text-container{
-    display: flex;
-    background-color: #f1efec;
-    justify-content:center;
-    align-items: flex-start;
-    width: 500px;
-    height: 700px;  
-    z-index: 1; 
-
-}
 
 
 
