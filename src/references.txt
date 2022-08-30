@@ -37,8 +37,11 @@ Greige : #A3A09B
 
 #f1efec - whitey-yella complimentary - #DBD6CF
 #C1BAA6 - isitgreenisityellow
- -
+-----
 
+#CA5E48 - beautiful orange red
+
+------
 
 elin saving colours 
 84894A

@@ -1,7 +1,8 @@
 .footer-section {
     background-color:  #f1efec;
     min-height: 20vh;
-    
+    color: #CA5E48;
+    font-family: 'Heebo', sans-serif;
 }
 
 .footer-div{

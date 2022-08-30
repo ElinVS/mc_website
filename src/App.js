@@ -65,12 +65,14 @@ function App() {
     <Routes>
     
   <Route exact path='/' element={
-    <HomePage setCursorVariant={setCursorVariant}/>
+    <HomePage2 setCursorVariant={setCursorVariant}/>
+    
   }>
    </Route>
 
   <Route  path='/Home' element={
-    <HomePage2 setCursorVariant={setCursorVariant}/>
+    <HomePage setCursorVariant={setCursorVariant}/>
+    
   }>
    </Route>
 

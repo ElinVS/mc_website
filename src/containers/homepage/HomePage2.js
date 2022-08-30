@@ -1,4 +1,5 @@
 import React from 'react'
+import {Helmet} from 'react-helmet'
 
 import Footer from '../../components/footer/Footer'
 import '../homepage/HomePage2.css'
@@ -16,6 +17,10 @@ const HomePage2 = ({setCursorVariant}) => {
 
   return (
   <>
+
+    <Helmet>
+      <title>Matthew Collings-Home</title>
+    </Helmet>
 
     <header className='title-container'>
       <h1 id='h1-title'>MATTHEW COLLINGS</h1>
@@ -40,11 +45,9 @@ const HomePage2 = ({setCursorVariant}) => {
 
     <section className='contact-section'>
       <div  onMouseEnter={textEnter} onMouseLeave={textLeave} className='contact-grid-wrapper'>
-
-
         <div className='div-spotify'> 
             <p className='contact-text'>SPOTIFY</p>
-          </div>
+        </div>
         <div className='div-bandcamp'>
           <p className='contact-text'>BANDCAMP</p>
         </div>

@@ -7,7 +7,7 @@
     display:flex;
     justify-content: center;
     align-items: flex-start;
-    padding: 0 0 0 2em;
+    padding: 0 0 0 1.8em;
 }
 
 #h1-title{
@@ -98,11 +98,10 @@
 /* contact grid section here */
 
 .contact-section{
-    
     background-color: #f1efec;
     font-size: 2rem;
-    padding: 1em;
-    
+    letter-spacing: 0.2em;
+    padding: 2em;   
 }
 
 .contact-grid-wrapper{
@@ -113,7 +112,6 @@
     
     "spotify bandcamp twitter instagram"
     ;
- 
 }
 
 .div-spotify{
@@ -134,7 +132,6 @@
 }
 .div-twitter{
     grid-area: twitter;
-    border-top:1px solid black;
     background-color: #f1efec;
     display: flex;
     justify-content: center;
@@ -142,6 +139,7 @@
 }
 .div-instagram{
     grid-area: instagram;
+    border-top:1px solid black;
     background-color: #f1efec;
     display: flex;
     justify-content: center;

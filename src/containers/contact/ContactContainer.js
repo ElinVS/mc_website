@@ -1,6 +1,7 @@
-import React, {useState}from 'react'
+import React from 'react'
 import { Helmet } from 'react-helmet'
 import '../contact/Contact.css'
+import Footer from '../../components/footer/Footer'
 
 
 
@@ -15,7 +16,6 @@ const ContactContainer = ({setCursorVariant}) => {
 }
 
 
-
   return (
     <>
 
@@ -24,45 +24,19 @@ const ContactContainer = ({setCursorVariant}) => {
     </Helmet>
 
     <section className='contact-page'>
-    
-    
-    <section className='contactpage-section-one'>
-
- 
-
-
-      <div  onMouseEnter={textEnter} onMouseLeave={textLeave} className='grid-wrapper'>
-
-      <div className='contact-div-general'>
-        <p id='contact-text-one'>GENERAL ENQUIRES</p>
-      </div>
-
-      <div className='contact-div-booking'>
-        <p id='contact-text-one'> BOOKING CONTACT</p>
-      </div>
-
-
-      <div className='contact-div-spotify'> 
-          <p id='contact-text-one'>SPOTIFY</p>
+      <div className='contact-page-wrapper'>
+        <div className='contact-container-general'>
+          <p onMouseEnter={textEnter} onMouseLeave={textLeave} className='contact-page-text'>GENERAL ENQUIRES</p>
+          <p className='contact-page-email'>mlscollings@gmail.com</p>
         </div>
-
-      <div className='contact-div-bandcamp'>
-        <p id='contact-text-one'>BANDCAMP</p>
+        <div className='contact-container-booking'>
+          <p className='contact-page-email'>denovalirecords@gmail.com </p>
+          <p onMouseEnter={textEnter} onMouseLeave={textLeave} className='contact-page-text'>BOOKINGS CONTACT </p>
+        </div>
       </div>
-
-      <div className='contact-div-twitter'>
-        <p id='contact-text-one'>TWITTER</p>
-      </div>
-
-      <div className='contact-div-instagram'>
-        <p id='contact-text-one'>INSTAGRAM</p>
-      </div>
-
-      </div>
-
     </section>
 
-    </section>
+   <Footer/>
 
     </>
   )
