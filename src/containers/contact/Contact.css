@@ -3,11 +3,13 @@
 .contact-page{
     background-color: #f1efec;
     padding: 1em;
-    min-height: 80vh;
+    min-height: 70vh;
     display:flex;
     flex-direction: row;
     justify-content: center;
-    padding: 8em 0 0 0;
+    padding: 16em 0 0 0;
+    border-right: 1px solid #121212;
+    
 }
 
 .contact-page-wrapper{
@@ -21,7 +23,7 @@
 
 .contact-container-general{
     grid-area: general;
-    border-top: 1px solid black;
+    border-top: 1px solid #121212;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +38,7 @@
     justify-content: center;
     align-items: flex-end;
     padding: 1em;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #121212;
     
 }
 
@@ -44,8 +46,12 @@
 .contact-page-text{
    font-size: 2rem;
    letter-spacing: 0.2em; 
+   
 }
+
+
 
 .contact-page-email{
     color: #CA5E48;
+    font-family: 'Heebo', sans-serif;
 }

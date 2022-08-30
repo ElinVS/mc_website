@@ -1,38 +1,42 @@
 .bio-page-section {
-    background-color: #f1efec;
     min-height: 100vh;
+    background-color:#f1efec;
     display: flex;
-   flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;    
+}
+
+.bio-div-outer{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
     justify-content: center;
     align-items: center;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+
 }
 
-aside{
-    /* border: 1px solid #121212; */
-    margin: -12em 5em 0 2em;   
+.bio-div-inner{
+    width: 500px;
+    height: 700px;
+    background-color: pink;
+    background-size: cover;
+
 }
 
-.bio-text{
-    font-family: 'Heebo', sans-serif;
-    font-size: 1em;
-}
+.bio-text-container{
+    display: flex;
+    background-color: #f1efec;
+    justify-content:center;
+    align-items: flex-start;
+    width: 500px;
+    height: 700px;  
+    z-index: 1; 
 
-
-/* image styling here */
-
-.bio-image-container {
-
-    width: 600px;
-    height:600px;
-    margin: 0 0 0 5em;
-}
-
-.bio-image{
-    width: 600px;
-    height:600px;
-    
 }
 
 
-/* animations here */
+
 
