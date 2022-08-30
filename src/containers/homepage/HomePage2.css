@@ -1,71 +1,122 @@
+
 /* title section here */
 
-.title-section{
-    min-height:100vh;
-    background-color: #f1efec; 
-    margin:0;
-}
-
-.artists-name-container{
-    background-color:  #f1efec;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-    min-height: 8vh;
-    padding:0 0 2em 2em;
-}
-
-
-#artists-name{
-    position:fixed;
-    font-size: 6rem;
-    color:#f1efec;
-    mix-blend-mode:difference;
-    letter-spacing: 0.25em; 
-}
-
-
-.texture-img-container{
-    min-height: 100vh;
-    background-image: url('/src/assets/images/texturehorizontal.jpeg') ;
-    background-size: cover;
-    margin:1em;
+.title-container{
+    min-height: 20vh;
+    background-color:#f1efec;
     display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 0 0 2em;
+}
+
+#h1-title{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.6em;
+    position:fixed;
+    color: #f1efec;
+    mix-blend-mode: difference;
+    white-space: none;
+    
+}
+
+.textured-img-section{
+    background-color: #f1efec;
+    padding:0 1em 1em;
+}
+
+.textured-img-container{
+    min-height: 100vh;
+    background-image: url('/src/assets/images/texturehorizontal.jpeg')  ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    display: flex;
     justify-content: center; 
 }
 
-
-/* short-bio-section */
+/* short bio section here */
 
 .short-bio-section{
-    background-color: #f1efec; 
-}
-
-.texture-img-container2{
     min-height: 100vh;
-    background-image: url('/src/assets/images/texturehorizontalflipped.jpeg') ;
-    background-size: cover;
-    margin:1em;
-    display:flex;
-    justify-content: flex-start; 
+    background-color:#f1efec;
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    padding: 1em;
+   
 }
 
-.short-bio-text{
-    font-size: 5em;
-    color: #f1efec;
-    mix-blend-mode: screen;
-    display:flex;
+.short-bio-container-outer{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
 }
 
+.short-bio-container-inner{
+    width: 500px;
+    height: 700px;
+    background-image: url('/src/assets/thirdmind/matt_jag_spotlight.jpg');
+    background-size: cover;
 
+}
 
+.short-bio-text-container{
+    display: flex;
+    background-color: #f1efec;
+    justify-content:center;
+    align-items: flex-start;
+    width: 500px;
+    height: 700px;  
+    z-index: 1; 
+}
 
+#short-bio-text{
+    font-family: 'Heebo', sans-serif;
+    font-size: 2rem;  
+}
 
+.parallax-img-section{
+    background-image: url('/src/assets/thirdmind/foley_scrape_bw_02.jpg')  ; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size:cover;
+    background-repeat:no-repeat; 
+    min-height: 100vh;
+    background-attachment: fixed;
+    
+}
 
+/* contact grid section here */
 
+.contact-grid-wrapper{
+    display:grid;
+}
 
-
-
+.div-general{
+    grid-template-areas: general;
+}
+.div-booking{
+    grid-template-areas: general;
+}
+.div-spotify{
+    grid-template-areas: general;
+}
+.div-bandcamp{
+    grid-template-areas: general;
+}
+.div-twitter{
+    grid-template-areas: general;
+}
+.div-instagram{
+    grid-template-areas: general;
+}
 

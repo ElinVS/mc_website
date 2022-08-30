@@ -69,6 +69,10 @@ const HomePage = ({setCursorVariant}) => {
        
     </section>
 
+    <section className='test'>
+      
+    </section>
+
     <section className='homepage-section-six'>
       {/* <img src={wallshadows} alt='wall-with-shadows' className='wall-shadows-img'/> */}
 

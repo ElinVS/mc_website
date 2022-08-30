@@ -16,7 +16,7 @@
     background-size: cover;
     background-repeat: no-repeat; 
     min-height: 100vh;
-    background-attachment: fixed; 
+    /* background-attachment: fixed;  */
     display: flex;
     justify-content: center;
 }
@@ -214,4 +214,7 @@
 
 
 
-  
+  .test{
+    min-height:100vh;
+    background-color: pink;
+  }
