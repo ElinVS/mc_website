@@ -9,8 +9,8 @@ const Footer = () => {
         
         <div className='footer-div'>
           
-                <p>@Matthew Coolings all rights reserved</p>
-                <p>Design & Code by Duke&Duncan </p>
+                <p> &#169;Matthew Collings 2022</p>
+                <p>Design&Code By Duke&Duncan </p>
                
                
         </div>

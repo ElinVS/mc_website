@@ -97,26 +97,54 @@
 
 /* contact grid section here */
 
-.contact-grid-wrapper{
-    display:grid;
+.contact-section{
+    
+    background-color: #f1efec;
+    font-size: 2rem;
+    padding: 1em;
+    
 }
 
-.div-general{
-    grid-template-areas: general;
+.contact-grid-wrapper{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    
+    "spotify bandcamp twitter instagram"
+    ;
+ 
 }
-.div-booking{
-    grid-template-areas: general;
-}
+
 .div-spotify{
-    grid-template-areas: general;
+    grid-area: spotify;
+    border-bottom:1px solid black; 
+    background-color: #f1efec;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
 }
 .div-bandcamp{
-    grid-template-areas: general;
+    grid-area: bandcamp;
+    border-right:1px solid black;
+    background-color: #f1efec;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
 }
 .div-twitter{
-    grid-template-areas: general;
+    grid-area: twitter;
+    border-top:1px solid black;
+    background-color: #f1efec;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
 }
 .div-instagram{
-    grid-template-areas: general;
+    grid-area: instagram;
+    background-color: #f1efec;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
 }
 

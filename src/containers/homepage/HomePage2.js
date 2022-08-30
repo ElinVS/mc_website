@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Footer from '../../components/footer/Footer'
 import '../homepage/HomePage2.css'
 
 const HomePage2 = ({setCursorVariant}) => {
@@ -38,37 +39,25 @@ const HomePage2 = ({setCursorVariant}) => {
     </section>
 
     <section className='contact-section'>
-
-    <div  onMouseEnter={textEnter} onMouseLeave={textLeave} className='contact-grid-wrapper'>
-
-      <div className='div-general'>
-        <p className='contact-text'>GENERAL ENQUIRES</p>
-      </div>
-
-      <div className='div-booking'>
-        <p className='contact-text'> BOOKING CONTACT</p>
-      </div>
+      <div  onMouseEnter={textEnter} onMouseLeave={textLeave} className='contact-grid-wrapper'>
 
 
-      <div className='div-spotify'> 
-          <p className='contact-text'>SPOTIFY</p>
+        <div className='div-spotify'> 
+            <p className='contact-text'>SPOTIFY</p>
+          </div>
+        <div className='div-bandcamp'>
+          <p className='contact-text'>BANDCAMP</p>
         </div>
-
-      <div className='div-bandcamp'>
-        <p className='contact-text'>BANDCAMP</p>
+        <div className='div-twitter'>
+          <p className='contact-text'>TWITTER</p>
+        </div>
+        <div className='div-instagram'>
+          <p className='contact-text'>INSTAGRAM</p>
+        </div>
       </div>
-
-      <div className='div-twitter'>
-        <p className='contact-text'>TWITTER</p>
-      </div>
-
-      <div className='div-instagram'>
-        <p className='contact-text'>INSTAGRAM</p>
-      </div>
-
-    </div>
-
     </section>
+
+    <Footer/>
 
 
 
