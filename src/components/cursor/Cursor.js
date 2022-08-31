@@ -27,10 +27,7 @@ const Cursor = ({mousePosition, cursorVariant}) => {
             y: mousePosition.y - 75,
             backgroundColor:'#fff', 
             mixBlendMode:'difference'
-
         }
-
-
     }
 
   return (

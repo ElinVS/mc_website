@@ -3,6 +3,7 @@ import {Helmet} from 'react-helmet'
 
 import Footer from '../../components/footer/Footer'
 import '../homepage/HomePage2.css'
+import Header from '../../components/header/Header'
 
 const HomePage2 = ({setCursorVariant}) => {
 
@@ -22,9 +23,11 @@ const HomePage2 = ({setCursorVariant}) => {
       <title>Matthew Collings-Home</title>
     </Helmet>
 
-    <header className='title-container'>
+    <Header/>
+
+    {/* <header className='title-container'>
       <h1 id='h1-title'>MATTHEW COLLINGS</h1>
-    </header>
+    </header> */}
 
     <section className='textured-img-section'>
       <div className='textured-img-container'></div>

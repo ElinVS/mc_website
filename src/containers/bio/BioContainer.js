@@ -3,8 +3,7 @@ import { Helmet } from 'react-helmet'
 
 import '../bio/Bio.css'
 
-import bioimages from '../../bioimages'
-import quoteArray from '../../bioimages'
+import quoteArray from '../../quotesData'
 
 
 const BioContainer = ({setCursorVariant}) => {
@@ -32,7 +31,7 @@ const BioContainer = ({setCursorVariant}) => {
 
     <section className='bio-page-section'>
 
-    <header className='title-container-bio-c'>
+      <header className='title-container-bio-c'>
         <h1 id='h1-title-bio-c'>COLLINGS </h1>
       </header>
 
