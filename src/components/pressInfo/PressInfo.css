@@ -1,0 +1,12 @@
+.press-text-container{
+    min-height:300px;
+    max-width:100%;
+    background-color: #CAd;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Heebo', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.06em;
+    padding: 4em;
+}

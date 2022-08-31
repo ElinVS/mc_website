@@ -1,0 +1,55 @@
+.socials-section{
+    background-color: #f1efec;
+    font-size: 2rem;
+    letter-spacing: 0.2em;
+    padding:1em;   
+}
+
+.socials-grid-wrapper{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    
+    "spotify bandcamp twitter instagram"
+    ;
+}
+
+.socials-text{
+    font-family: 'Heebo', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.2em; 
+
+}
+
+.div-spotify{
+    grid-area: spotify;
+    border-bottom:1px solid #121212; 
+    background-color: #f1efec;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.div-bandcamp{
+    grid-area: bandcamp;
+    border-right:1px solid#121212;
+    background-color: #f1efec;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.div-twitter{
+    grid-area: twitter;
+    background-color: #f1efec;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+.div-instagram{
+    grid-area: instagram;
+    border-top:1px solid #121212;
+    background-color: #f1efec;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}

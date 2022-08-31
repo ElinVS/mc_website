@@ -19,7 +19,7 @@ const ContactContainer = ({setCursorVariant}) => {
     </Helmet>
 
     <ContactInfo setCursorVariant={setCursorVariant}/>
-    <MusicBlobs/>
+    {/* <MusicBlobs/> */}
     <Footer/>
 
     </>

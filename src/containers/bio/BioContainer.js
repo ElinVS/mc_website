@@ -1,32 +1,18 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import '../bio/Bio.css'
 
-import quoteArray from '../../quotesData'
+import PressInfo from '../../components/pressInfo/PressInfo'
 
-
-const BioContainer = ({setCursorVariant}) => {
-
-
-
-  const [currentImage, setCurrentImage] = useState(0);
-
-  useEffect (() => {
-    const imageId = setInterval (() => {
-      setCurrentImage((i) => {
-        return i === 10 ? 0 : i +1;
-      })
-    }, 8000)
-    return () => clearInterval(imageId)
-  }, []);
+const BioContainer = () => {
 
 
   return (
     <>
 
     <Helmet>
-      <title>Matthew Collings - Bio</title>
+      <title>Matthew Collings - About</title>
     </Helmet>
 
     <section className='bio-page-section'>
@@ -39,12 +25,9 @@ const BioContainer = ({setCursorVariant}) => {
         <h1 id='h1-title-bio'>MATTHEW </h1>
       </header>
 
-      <div className='press-text-container'>
-        {quoteArray[currentImage]}
-      </div>
-
       <div className='bio-container'>
         <div className='portrait-img-container'>
+        <PressInfo/>
         </div>
         <div className='portrait-text-container'>
           <p>Collings's work contrasts the crushed guitars and textures of My Bloody Valentine or Sonic Youth with structures more akin to contemporary classical composers like Steve Reich or David Lang. In his powerful live performances, he uses the amplifier as an instrument and the guitar as a control device for innovative digital processes. Using numbers of 'prepared amplifiers', he coaxes unique sounds by placing bells, rice and wood directly onto the speaker cone and manipulating the physical vibrations with his fingers, producing a highly visual and physical performance. This music is textural, melodic and often sonically overwhelming.

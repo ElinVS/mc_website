@@ -7,17 +7,18 @@ const MusicBlobs = () => {
     const [colour, setColour] = useState('default')
 
     const changeBlob = () => {
-        setColour('blue')
+        setColour('black')
+    }
+    const defaultBlob = () => {
+        setColour('default')
     }
 
     const blobVariants = {
         default:{
-            backgroundColor:'#121212',
-            
+            backgroundColor:'#f1efec',            
         },
-        blue: {
-            backgroundColor:'#BACDCF',
-            
+        black: {
+            backgroundColor:'#121212',   
         }
     }
 
@@ -28,8 +29,10 @@ const MusicBlobs = () => {
     <>
     <div className='blob-container'>
         <motion.div 
+            onMouseEnter={changeBlob}
+            onMouseLeave={defaultBlob}
+            on
             
-            onClick={changeBlob}
             className='blob'
             variants={blobVariants}
             animate={colour}
