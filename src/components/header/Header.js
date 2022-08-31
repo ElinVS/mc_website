@@ -21,7 +21,7 @@ const header = () => {
       
       const item = {
         initial: {
-            y: 80,
+            y: -80,
             opacity:0  
           },
           show: {

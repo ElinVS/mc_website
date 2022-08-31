@@ -1,24 +1,6 @@
 
-/* title section here */
+/* textured image section here */
 
-.title-container{
-    min-height: 20vh;
-    background-color:#f1efec;
-    display:flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0 0 0 1.8em;
-}
-
-#h1-title{
-    font-family: 'Familjen Grotesk', sans-serif;
-    font-size: 4rem;
-    letter-spacing: 0.6em;
-    position:fixed;
-    color: #f1efec;
-    mix-blend-mode: difference;
-    white-space: none;   
-}
 
 .textured-img-section{
     background-color: #f1efec;
@@ -37,51 +19,6 @@
     justify-content: center; 
 }
 
-/* short bio section here */
-
-.short-bio-section{
-    min-height: 100vh;
-    background-color:#f1efec;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1em;
-   
-}
-
-.short-bio-container-outer{
-    width: 100vh;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-}
-
-.short-bio-container-inner{
-    width: 500px;
-    height: 700px;
-    background-image: url('/src/assets/thirdmind/matt_jag_spotlight.jpg');
-    background-size: cover;
-
-}
-
-.short-bio-text-container{
-    display: flex;
-    background-color: #f1efec;
-    justify-content:center;
-    align-items: flex-start;
-    width: 500px;
-    height: 700px;  
-    z-index: 1; 
-}
-
-#short-bio-text{
-    font-family: 'Heebo', sans-serif;
-    font-size: 2rem;  
-}
-
 .parallax-img-section{
     background-image: url('/src/assets/thirdmind/foley_scrape_bw_02.jpg')  ; 
     -webkit-background-size: cover;
@@ -96,14 +33,14 @@
 
 /* contact grid section here */
 
-.contact-section{
+.socials-section{
     background-color: #f1efec;
     font-size: 2rem;
     letter-spacing: 0.2em;
     padding:1em;   
 }
 
-.contact-grid-wrapper{
+.socials-grid-wrapper{
     display:grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-columns: auto;
@@ -111,6 +48,13 @@
     
     "spotify bandcamp twitter instagram"
     ;
+}
+
+.socials-text{
+    font-family: 'Heebo', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 0.2em; 
+
 }
 
 .div-spotify{

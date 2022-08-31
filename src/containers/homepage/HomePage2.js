@@ -4,6 +4,7 @@ import {Helmet} from 'react-helmet'
 import Footer from '../../components/footer/Footer'
 import '../homepage/HomePage2.css'
 import Header from '../../components/header/Header'
+import ShortBio from '../../components/shortBio/ShortBio'
 
 const HomePage2 = ({setCursorVariant}) => {
 
@@ -25,49 +26,33 @@ const HomePage2 = ({setCursorVariant}) => {
 
     <Header/>
 
-    {/* <header className='title-container'>
-      <h1 id='h1-title'>MATTHEW COLLINGS</h1>
-    </header> */}
-
     <section className='textured-img-section'>
       <div className='textured-img-container'></div>
     </section>
 
-    <section className='short-bio-section'>
-      <div className='short-bio-container-outer'>
-        <div className='short-bio-container-inner'>
-        </div>
-      </div>
-      <div className='short-bio-text-container'>
-        <p id='short-bio-text'>Lorem ipsum dolor sit amet. Est voluptatem reiciendis et iusto officiis ut rerum veniam. Ea labore sunt ex architecto fuga qui provident maiores a perferendis doloribus.</p>
-      </div>
-    </section>
+      <ShortBio/>
 
     <section className='parallax-img-section'> 
     </section>
 
-    <section className='contact-section'>
-      <div  onMouseEnter={textEnter} onMouseLeave={textLeave} className='contact-grid-wrapper'>
+    <section className='socials-section'>
+      <div  onMouseEnter={textEnter} onMouseLeave={textLeave} className='socials-grid-wrapper'>
         <div className='div-spotify'> 
-            <p className='contact-text'>SPOTIFY</p>
+            <p className='socials-text'>SPOTIFY</p>
         </div>
         <div className='div-bandcamp'>
-          <p className='contact-text'>BANDCAMP</p>
+          <p className='socials-text'>BANDCAMP</p>
         </div>
         <div className='div-twitter'>
-          <p className='contact-text'>TWITTER</p>
+          <p className='socials-text'>TWITTER</p>
         </div>
         <div className='div-instagram'>
-          <p className='contact-text'>INSTAGRAM</p>
+          <p className='socials-text'>INSTAGRAM</p>
         </div>
       </div>
     </section>
 
     <Footer/>
-
-
-
-
   
   </>
   )
