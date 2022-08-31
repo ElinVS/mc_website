@@ -1,5 +1,5 @@
+/* 
 
-/* homepage sections here */
 
 
 
@@ -16,7 +16,7 @@
     background-size: cover;
     background-repeat: no-repeat; 
     min-height: 100vh;
-    /* background-attachment: fixed;  */
+    background-attachment: fixed; 
     display: flex;
     justify-content: center;
 }
@@ -126,7 +126,6 @@
 
 
 
-/* image styling here */
 
 
 .img-container-guitar{
@@ -149,7 +148,7 @@
 }
 
 
-/* animations here */
+
 
   @keyframes bounce {
     from {
@@ -172,13 +171,13 @@
     }
   }
 
-    /* animation-name: movein;
+    animation-name: movein;
     display: inline-block;
-    transform: translateX(-100%);  */
-    /* animation-duration: 20s;
+    transform: translateX(-100%);  
+     animation-duration: 20s;
     
     animation-iteration-count: infinite;
-    /* filter: hue-rotate(130deg) contrast(30%) brightness(120%); */
+    filter: hue-rotate(130deg) contrast(30%) brightness(120%); 
  
   
 
@@ -217,4 +216,4 @@
   .test{
     min-height:100vh;
     background-color: pink;
-  }
+  } */

@@ -30,7 +30,7 @@ const HomePage2 = ({setCursorVariant}) => {
       <div className='textured-img-container'></div>
     </section>
 
-      <ShortBio/>
+    <ShortBio/>
 
     <section className='parallax-img-section'> 
     </section>
