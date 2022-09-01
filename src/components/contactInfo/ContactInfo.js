@@ -44,7 +44,18 @@ const ContactInfo = ({setCursorVariant}) => {
   return (
     <>
 
-    <section className='contact-page'>
+    <motion.section 
+      className='contact-page'
+      initial={{opacity:0}}
+      animate={{opacity:1}}
+      exit={{opacity:0}}
+      transition={{
+        duration: 1,
+        type: "tween",
+        ease: "easeIn",
+      }}
+    
+    >
       <div className='contact-page-wrapper'>
         <motion.div className='contact-container-general'
         variants={container}
@@ -72,7 +83,7 @@ const ContactInfo = ({setCursorVariant}) => {
           >BOOKINGS CONTACT </motion.p>
         </motion.div>
       </div>
-    </section>
+    </motion.section>
     
     </>
   )

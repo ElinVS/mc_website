@@ -12,16 +12,18 @@
     display:flex;
     justify-content: space-between;
     padding: 1em;
-    background-color: #f1efec;
+    /* background-color: #f1efec; */
+    
 }
 
 .navbar-links{
     color: #121212;
+    mix-blend-mode: difference;
     font-size: 1em;
     list-style: none;
     text-decoration: none;
     font-family: 'Familjen Grotesk', sans-serif;
-    mix-blend-mode:luminosity ; 
+    /* mix-blend-mode:luminosity ;  */
     
 }
 

@@ -30,6 +30,9 @@ const HomePage2 = ({setCursorVariant}) => {
     <section className='parallax-img-section'> 
     </section>
 
+    <div className='space'>
+    </div>
+
     <SocialsInfo setCursorVariant={setCursorVariant}/>
 
     <Footer/>

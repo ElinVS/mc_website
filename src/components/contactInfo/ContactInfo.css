@@ -8,8 +8,6 @@
     flex-direction: row;
     justify-content: center;
     padding: 16em 0 0 0;
-    border-right: 1px solid #121212;
-    
 }
 
 .contact-page-wrapper{
@@ -28,7 +26,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;  
-
 }
 
 .contact-container-booking{
@@ -38,15 +35,13 @@
     justify-content: center;
     align-items: flex-end;
     padding: 1em;
-    border-bottom: 1px solid #121212;
-    
+    border-bottom: 1px solid #121212;   
 }
 
 .contact-page-text{
    font-size: 2rem;
    letter-spacing: 0.2em;    
 }
-
 
 .contact-page-email{
     color: #CA5E48;

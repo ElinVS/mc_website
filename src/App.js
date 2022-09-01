@@ -22,6 +22,8 @@ import SnowdenContainer from './containers/work/SnowdenContainer';
 import Cursor from './components/cursor/Cursor';
 import BackToTop from './components/backToTop/BackToTop'
 
+import AnimatedRoutes from './components/AnimatedRoutes';
+
 
 
 function App() {
@@ -60,9 +62,11 @@ function App() {
   
   <NavBar setCursorVariant={setCursorVariant}/>
   <Cursor mousePosition={mousePosition} cursorVariant={cursorVariant}/>
-  <BackToTop/> 
+  {/* <BackToTop/>  */}
 
-    <Routes>
+  <AnimatedRoutes setCursorVariant={setCursorVariant}/>
+
+    {/* <Routes>
     
   <Route exact path='/' element={
     <HomePage2 setCursorVariant={setCursorVariant}/>
@@ -118,13 +122,9 @@ function App() {
     <SnowdenContainer/>
   }>
   </Route> 
-  
 
-    </Routes>
+  </Routes> */}
 
-   
-
-  
 
   </Router>
 
