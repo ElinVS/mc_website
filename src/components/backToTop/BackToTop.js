@@ -29,18 +29,15 @@ const BackToTop = () => {
     }
 
 
-  
-
   return (
 
     <>
-    <div className='flex'>
-        <div className='arrow-div'>
+        <div className='flex'>
+            <div className='arrow-div'>
 
             {showBackToTop && (<img  src={up_arrow_svg} onClick={scrollToTop} className='up-arrow-image'/>)}
 
-        </div>
-
+            </div>
         </div>
     </>
   )

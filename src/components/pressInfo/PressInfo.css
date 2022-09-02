@@ -1,12 +1,14 @@
 .press-text-container{
-    min-height:300px;
+    min-height:100%;
     max-width:100%;
-    background-color: #CAd;
+    /* background-color: #beb; */
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     font-family: 'Heebo', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 0.06em;
-    padding: 4em;
+    /* padding: 4em; */
+    /* border-left: 1px solid #121212;
+    border-right: 1px solid #121212 ; */
 }

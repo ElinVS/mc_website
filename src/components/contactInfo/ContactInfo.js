@@ -46,14 +46,15 @@ const ContactInfo = ({setCursorVariant}) => {
 
     <motion.section 
       className='contact-page'
-      initial={{opacity:0}}
-      animate={{opacity:1}}
-      exit={{opacity:0}}
-      transition={{
-        duration: 1,
-        type: "tween",
-        ease: "easeIn",
-      }}
+      // initial={{width:0}}
+      // animate={{width:"100%"}}
+      // exit={{x: window.innerWidth}}
+      // transition={{
+      //   duration: 1,
+      //   type: "tween",
+      //   ease: "easeIn",
+       
+      // }}
     
     >
       <div className='contact-page-wrapper'>
@@ -61,28 +62,29 @@ const ContactInfo = ({setCursorVariant}) => {
         variants={container}
         initial='initial'
         animate='show'
-        
         >
-          <motion.p  className='contact-page-text'
-          variants={item}
-          >GENERAL ENQUIRES</motion.p>
-          <p  onMouseEnter={textEnter} onMouseLeave={textLeave} className='contact-page-email'>mlscollings@gmail.com</p>
-        </motion.div>
 
+          <motion.p  
+            className='contact-page-text'
+            variants={item}
+            >GENERAL ENQUIRES</motion.p>
+              <p  onMouseEnter={textEnter} onMouseLeave={textLeave} className='contact-page-email'>mlscollings@gmail.com</p>
+          </motion.div>
 
-        <motion.div 
-        className='contact-container-booking'
-        variants={container}
-        initial='initial'
-        animate='show'
-        >
-          <p onMouseEnter={textEnter} onMouseLeave={textLeave} className='contact-page-email'>denovalirecords@gmail.com </p>
+          <motion.div 
+            className='contact-container-booking'
+            variants={container}
+            initial='initial'
+            animate='show'
+            >
+              <p onMouseEnter={textEnter} onMouseLeave={textLeave} className='contact-page-email'>denovalirecords@gmail.com </p>
           <motion.p 
-          className='contact-page-text'
-          variants={item}
-          >BOOKINGS CONTACT </motion.p>
-        </motion.div>
-      </div>
+            className='contact-page-text'
+            variants={item}
+            >BOOKINGS CONTACT </motion.p>
+          </motion.div>
+        </div>
+
     </motion.section>
     
     </>

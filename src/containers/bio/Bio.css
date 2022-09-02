@@ -59,9 +59,9 @@
 }
 
 .portrait-img-container{
-    /* background-image: url('/src/assets/images/open.png');
-    background-size: cover; */
-    background-color: #cad;
+    background-image: url('/src/assets/images/wallshadows.jpeg');
+    background-size: cover;
+    
     width:500px;
     height:500px;
     display: flex;
@@ -71,7 +71,6 @@
     font-size: 1.5rem;
     letter-spacing: 0.06em;
     padding: 1em;
-    border-top: 1px solid #121212;
     text-align: center;
     
 }
@@ -88,20 +87,12 @@
     font-size: 1rem;
     letter-spacing: 0.06em;
     padding: 1em;
+
+    border-top: 1px solid #121212;
+    
 }
 
-/* .press-text-container{
-    min-height:300px;
-    max-width:100%;
-    background-color: pink;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    font-family: 'Heebo', sans-serif;
-    font-size: 2rem;
-    letter-spacing: 0.06em;
-    padding: 4em;
-} */
+
 
 
 

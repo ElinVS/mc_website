@@ -1,0 +1,86 @@
+.snowden-page{
+    min-height: 100vh;
+    background-color: #f1efec;
+    padding:1em;
+}
+
+.snowden-grid-wrapper{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+
+}
+
+
+
+.red{
+    grid-area: 1 / 1 / 4 / 4;;
+    background-image: url('/src/assets/snowden/jr_snowdencomp_purple.jpg');
+    background-size: cover;
+    /* width:100%;
+    height:400px; */
+ 
+}
+.blue{
+    grid-area: 1 / 4 / 4 / 7;
+    background-image: url('/src/assets/snowden/snowden_reid_strings\ side.jpg');
+    background-size: cover;
+    /* width:300px;
+    height:300px; */
+}
+.pink{
+    grid-area: 1 / 7 / 4 / 11;
+    /* background-color: pink; */
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.2em;
+    padding:1em;
+    /* width:300px;
+    height:300px; */
+}
+.green{
+    grid-area: 4 / 1 / 7 / 4;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1em;
+    padding:1em;
+    /* background-color: green; */
+    /* width:300px;
+    height:300px; */
+}
+.orange{
+    grid-area: 4 / 4 / 7 / 8; 
+   
+    background-color: orange;
+    /* width:300px;
+    height:100%; */
+}
+.yellow{
+    grid-area: 4 / 8 / 7 / 11;
+    background-color: yellow;
+    /* width:300px;
+    height:300px; */
+}
+.purple{
+    grid-area: 7 / 1 / 10 / 5;
+    background-color: purple;
+    /* width:300px;
+    height:300px; */
+}
+.sky-blue{
+    grid-area: 7 / 5 / 10 / 7; 
+    background-color: skyblue;
+    /* width:300px;
+    height:300px; */
+}
+.lime{
+    grid-area: 7 / 7 / 10 / 11; 
+    background-image: url('/src/assets/snowden/Requiem\ 21_Credit\ Alex\ Woodward.jpg');
+    background-size: cover;
+    /* width:300px;
+    height:300px; */
+}
+
+.text-test{
+    
+}

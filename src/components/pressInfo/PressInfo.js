@@ -4,15 +4,15 @@ import '../pressInfo/PressInfo.css'
 
 const PressInfo = () => {
 
-    const [currentImage, setCurrentImage] = useState(0);
+    const [currentText, setCurrentText] = useState(0);
 
     useEffect (() => {
-      const imageId = setInterval (() => {
-        setCurrentImage((i) => {
+      const textId = setInterval (() => {
+        setCurrentText((i) => {
           return i === 10 ? 0 : i +1;
         })
       }, 8000)
-      return () => clearInterval(imageId)
+      return () => clearInterval(textId)
     }, []);
 
 
@@ -20,9 +20,9 @@ const PressInfo = () => {
   return (
     <>
 
-    {/* <div className='press-text-container'> */}
-        {quoteArray[currentImage]}
-    {/* </div> */}
+    <div className='press-text-container'>
+        {quoteArray[currentText]}
+    </div>
     
     </>
   )

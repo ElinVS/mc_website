@@ -13,11 +13,11 @@ const SocialsInfo = ({setCursorVariant}) => {
     }
 
     const container = {
-        initial: {
+        hidden: {
             x: 0,
             opacity:0
           },
-          visible: {
+        visible: {
             y: 0,
             opacity:1,
             transition: {
@@ -32,7 +32,7 @@ const SocialsInfo = ({setCursorVariant}) => {
             y: 80,
             opacity:0  
           },
-          visible: {
+        visible: {
             y: 0,
             opacity:1,
             transition: {
