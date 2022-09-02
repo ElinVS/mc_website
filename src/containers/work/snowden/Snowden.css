@@ -7,11 +7,22 @@
 .snowden-grid-wrapper{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(9, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     grid-column-gap: 8px;
     grid-row-gap: 8px;
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -89,6 +100,29 @@
 }
 .lime{
     grid-area: 7 / 7 / 10 / 11; 
+    background-image: url('/src/assets/snowden/Requiem\ 21_Credit\ Alex\ Woodward.jpg');
+    background-size: cover;
+    /* width:300px;
+    height:300px; */
+}
+.beige{
+    grid-area: 10 / 1 / 13 / 3; 
+
+    background-image: url('/src/assets/snowden/Requiem\ 21_Credit\ Alex\ Woodward.jpg');
+    background-size: cover;
+    /* width:300px;
+    height:300px; */
+}
+.black{
+    grid-area: 10 / 3 / 13 / 6; 
+
+    background-image: url('/src/assets/snowden/Requiem\ 21_Credit\ Alex\ Woodward.jpg');
+    background-size: cover;
+    /* width:300px;
+    height:300px; */
+}
+.white{
+     grid-area: 10 / 6 / 13 / 11; 
     background-image: url('/src/assets/snowden/Requiem\ 21_Credit\ Alex\ Woodward.jpg');
     background-size: cover;
     /* width:300px;

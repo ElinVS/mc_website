@@ -14,6 +14,8 @@
     "spotify bandcamp twitter instagram"
     ;
     padding: 5em 0 0 0;
+    justify-content: bottom;
+    align-items: bottom;
 }
 
 .socials-text{
