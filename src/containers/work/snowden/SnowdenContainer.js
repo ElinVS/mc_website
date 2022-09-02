@@ -34,32 +34,66 @@ const SnowdenContainer = () => {
 As much as the situation makes me incredible angry, in also makes me think of scenes in spy films where a mole has been recovered by the side they've been spying for and end up isolated and alone on the other side of the world; the price of idealism and ambition.</p>
       </div>   
       <div className='orange'>
+      
        
         
       </div>
       <div className='yellow'>
-        image
+        <ul>
+          <li>Music - Matthew Collings</li>
+          <li>Visual Processing - Jules Rawlinson</li>
+          <li>Clarinet - Pete Furniss/Stewart Houston</li>
+          <li> Violin - Emma Lloyd/Julia Lungu</li>
+          <li>Cello - Clea Friend/Justyna Jablonska</li>
+          <li> Sound Projection - Sean Williams</li>
+          <li> Additional Ensemble - Lunatree (NL)</li>
+        </ul>
+
       </div>
       <div className='purple'>
+       
       </div>
       <div className='sky-blue'>
-        <p>Music - Matthew Collings
-Visual Processing - Jules Rawlinson
-Clarinet - Pete Furniss/Stewart Houston
-Violin - Emma Lloyd/Julia Lungu
-Cello - Clea Friend/Justyna Jablonska
-Sound Projection - Sean Williams
-
-Additional Ensemble - Lunatree (NL)</p>
+       
       </div>
       <div className='lime'>
+      <iframe title="vimeo-player" src="https://player.vimeo.com/video/119969660?h=8bc70f95cb" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+
       </div>
       <div className='beige'>
+
       </div>
       <div className='black'>
+      <p>Developed with support from Creative Scotland, New Media Scotland and Magnetic North
+
+      </p>
+
       </div>
       <div className='white'>
       </div>
+      <div className='brown'>
+      </div>
+      <div className='marine'>
+    
+      </div>
+      <div className='burgundy'>
+        <ul>
+        The piece has been performed at
+          <li>Edinburgh Reid Concert Hall</li>
+          <li>Glasgow Centre for Contemporary Art (CCA)</li>
+          <li>Made in Scotland Showcase at the Edinburgh Fringe Festival (Stockbridge Church)</li>
+          <li>Aberdeen Sound Festival</li>
+          <li>Utrecht (NL) Gaudeamus Muziekweek</li>
+        </ul>
+      
+,
+,
+
+
+
+      </div>
+
+
 
       </div>
 
@@ -71,3 +105,5 @@ Additional Ensemble - Lunatree (NL)</p>
 }
 
 export default SnowdenContainer
+
+

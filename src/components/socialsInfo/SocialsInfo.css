@@ -2,20 +2,19 @@
     background-color: #f1efec;
     font-size: 2rem;
     letter-spacing: 0.2em;
-    padding:1em;   
+    padding:1em;  
+   
 }
 
 .socials-grid-wrapper{
     display:grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: auto;
-    grid-template-areas: 
+    grid-template-areas:
     
     "spotify bandcamp twitter instagram"
     ;
-    padding: 5em 0 0 0;
-    justify-content: bottom;
-    align-items: bottom;
+    padding: 10em 0 0 0;
+    align-content: flex-end;
 }
 
 .socials-text{
@@ -32,6 +31,7 @@
     display: flex;
     justify-content: center;
     z-index: 1;
+    
 }
 .div-bandcamp{
     grid-area: bandcamp;
