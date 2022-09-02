@@ -7,7 +7,7 @@
 .snowden-grid-wrapper{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(15, 1fr);
+    grid-template-rows: repeat(12, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
@@ -95,51 +95,37 @@
 }
 .beige{
     grid-area: 10 / 1 / 13 / 3; 
-    /* background-image: url('/src/assets/snowden/MatthewCollings_ARequiemForEdwardSnowden.jpg');
-    background-size: cover; */
-}
-.black{
-    grid-area: 10 / 3 / 13 / 6;
-    background-image: url('/src/assets/images/creative_scotland.png');
-    background-size: contain;
-    background-repeat: no-repeat; 
-    display:flex;
-    justify-content: center;
-    align-items: flex-end;  
-    font-family: 'Heebo', sans-serif;
-    font-size: 1em;
-    padding:1em; 
-}
-
-.white{
-     grid-area: 10 / 6 / 13 / 11; 
-    background-image: url('/src/assets/snowden/Requiem\ 21_Credit\ Alex\ Woodward.jpg');
-    background-size: cover;
-}
-.brown{
-    grid-area: 13 / 1 / 16 / 5;
-    background-image: url('/src/assets/snowden/Requiem\ 21_Credit\ Alex\ Woodward.jpg');
-    background-size: cover;
-}
-.marine{
-    grid-area: 13 / 5 / 16 / 8;
-    background-image: url('/src/assets/snowden/Requiem\ 21_Credit\ Alex\ Woodward.jpg');
-    background-size: cover;
-}
-.burgundy{
-    grid-area: 13 / 8 / 16 / 11; 
     background-color: #121212;
     font-family: 'Heebo', sans-serif;
-    font-size: 1.3em;
+    font-size: 1em;
     color: #f1efec;
     padding:1em;
     display:flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;   
 }
 
-.burgundy > ul{
+.beige > ul{
     list-style: none;
+}
+
+.black{
+    grid-area: 10 / 3 / 13 / 9;
+    background-image: url('/src/assets/snowden/Requiem\ 21_Credit\ Alex\ Woodward.jpg');
+    background-size: cover;
+}
+
+.white{
+     grid-area: 10 / 9 / 13 / 11; 
+     background-image: url('/src/assets/images/creative_scotland.png');
+     background-size: contain;
+     background-repeat: no-repeat; 
+     display:flex;
+     justify-content: center;
+     align-items: flex-end;  
+     font-family: 'Heebo', sans-serif;
+     font-size: 1em;
+     padding:1em; 
 }
 
 

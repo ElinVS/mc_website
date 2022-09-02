@@ -6,6 +6,9 @@ import Header from '../../../components/header/Header'
 import snowden from '../../../assets/snowden/MatthewCollings_by_NatUrazmetova.jpg'
 
 
+// this page was buily as an experiment to start with so code 
+// mis messy and needs re worked
+
 const SnowdenContainer = () => {
   return (
     <>
@@ -61,40 +64,29 @@ As much as the situation makes me incredible angry, in also makes me think of sc
 
       </div>
       <div className='beige'>
-
-      </div>
-      <div className='black'>
-      <p>Developed with support from Creative Scotland, New Media Scotland and Magnetic North
-
-      </p>
-
-      </div>
-      <div className='white'>
-      </div>
-      <div className='brown'>
-      </div>
-      <div className='marine'>
-    
-      </div>
-      <div className='burgundy'>
+      
         <ul>
         The piece has been performed at
+
           <li>Edinburgh Reid Concert Hall</li>
           <li>Glasgow Centre for Contemporary Art (CCA)</li>
           <li>Made in Scotland Showcase at the Edinburgh Fringe Festival (Stockbridge Church)</li>
           <li>Aberdeen Sound Festival</li>
           <li>Utrecht (NL) Gaudeamus Muziekweek</li>
+        
         </ul>
-      
-,
-,
-
-
 
       </div>
+      <div className='black'>
+      
 
-
-
+      </div>
+      <div className='white'>
+      <p>Developed with support from Creative Scotland, New Media Scotland and Magnetic North </p>
+      </div>
+      
+      
+    
       </div>
 
 
