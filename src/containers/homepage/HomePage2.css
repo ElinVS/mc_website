@@ -27,14 +27,9 @@
     background-size:cover;
     background-repeat:no-repeat; 
     min-height: 100vh;
-    background-attachment: fixed;
-    
+    background-attachment: fixed;  
 }
 
-.space{
-    min-height: 30vh;
-    background-color: #f1efec;
-}
 
 
 

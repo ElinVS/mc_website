@@ -3,6 +3,7 @@ import {motion} from 'framer-motion'
 import '../header/Header.css'
 
 const header = () => {
+  
 
     const container = {
         initial: {

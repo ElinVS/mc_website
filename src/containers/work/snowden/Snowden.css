@@ -50,26 +50,40 @@
 }
 .orange{
     grid-area: 4 / 4 / 7 / 8; 
+    background-image: url('/src/assets/snowden/MatthewCollings_ARequiemForEdwardSnowden.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
    
-    background-color: orange;
-    /* width:300px;
-    height:100%; */
+    /* background-color: orange; */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
 }
 .yellow{
     grid-area: 4 / 8 / 7 / 11;
+    background-image: url('/src/assets/snowden/MatthewCollings_by_NatUrazmetova.jpg');
+    background-size: cover;
     background-color: yellow;
-    /* width:300px;
+  
+    /* width:100%;
     height:300px; */
 }
 .purple{
     grid-area: 7 / 1 / 10 / 5;
+    background-image: url('/src/assets/snowden/Culturele-Zondag-Uitfeest-2015--Jelmer-de-Haas_1_1000.jpg');
+    background-size: cover;
     background-color: purple;
     /* width:300px;
     height:300px; */
 }
 .sky-blue{
     grid-area: 7 / 5 / 10 / 7; 
-    background-color: skyblue;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1em;
+    padding:1em;
+    /* background-color: skyblue; */
     /* width:300px;
     height:300px; */
 }

@@ -3,6 +3,8 @@ import { Helmet } from 'react-helmet'
 
 import '../snowden/Snowden.css'
 import Header from '../../../components/header/Header'
+import snowden from '../../../assets/snowden/MatthewCollings_by_NatUrazmetova.jpg'
+
 
 const SnowdenContainer = () => {
   return (
@@ -12,7 +14,7 @@ const SnowdenContainer = () => {
       <title>Matthew Collings</title>
     </Helmet>
 
-    <Header/>
+    <Header />
 
     <section className='snowden-page'>
       <div className='snowden-grid-wrapper'>
@@ -32,6 +34,7 @@ const SnowdenContainer = () => {
 As much as the situation makes me incredible angry, in also makes me think of scenes in spy films where a mole has been recovered by the side they've been spying for and end up isolated and alone on the other side of the world; the price of idealism and ambition.</p>
       </div>   
       <div className='orange'>
+       
         
       </div>
       <div className='yellow'>
@@ -40,6 +43,14 @@ As much as the situation makes me incredible angry, in also makes me think of sc
       <div className='purple'>
       </div>
       <div className='sky-blue'>
+        <p>Music - Matthew Collings
+Visual Processing - Jules Rawlinson
+Clarinet - Pete Furniss/Stewart Houston
+Violin - Emma Lloyd/Julia Lungu
+Cello - Clea Friend/Justyna Jablonska
+Sound Projection - Sean Williams
+
+Additional Ensemble - Lunatree (NL)</p>
       </div>
       <div className='lime'>
       </div>

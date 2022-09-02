@@ -1,14 +1,19 @@
+
+
+
 .press-text-container{
-    min-height:100%;
-    max-width:100%;
+    min-height:50vh;
+
     /* background-color: #beb; */
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Heebo', sans-serif;
     font-size: 1.5rem;
+    color: #CA5E48;
     letter-spacing: 0.06em;
-    /* padding: 4em; */
-    /* border-left: 1px solid #121212;
-    border-right: 1px solid #121212 ; */
+    padding: 4em;
+    
+   
 }
+

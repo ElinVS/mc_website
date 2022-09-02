@@ -17,17 +17,18 @@ const BioContainer = () => {
 
     <section className='bio-page-section'>
 
-      <header className='title-container-bio-c'>
+      {/* <header className='title-container-bio-c'>
         <h1 id='h1-title-bio-c'>COLLINGS </h1>
       </header>
 
       <header className='title-container-bio'>
         <h1 id='h1-title-bio'>MATTHEW </h1>
-      </header>
+      </header> */}
+      <PressInfo/>
 
       <div className='bio-container'>
         <div className='portrait-img-container'>
-        <PressInfo/>
+        
         </div>
         <div className='portrait-text-container'>
           <p>Collings's work contrasts the crushed guitars and textures of My Bloody Valentine or Sonic Youth with structures more akin to contemporary classical composers like Steve Reich or David Lang. In his powerful live performances, he uses the amplifier as an instrument and the guitar as a control device for innovative digital processes. Using numbers of 'prepared amplifiers', he coaxes unique sounds by placing bells, rice and wood directly onto the speaker cone and manipulating the physical vibrations with his fingers, producing a highly visual and physical performance. This music is textural, melodic and often sonically overwhelming.

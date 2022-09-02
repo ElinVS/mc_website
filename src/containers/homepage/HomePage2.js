@@ -9,9 +9,9 @@ import SocialsInfo from '../../components/socialsInfo/SocialsInfo'
 
 const HomePage2 = ({setCursorVariant}) => {
 
+  
 
-
-
+  
   return (
   <>
 
@@ -30,8 +30,7 @@ const HomePage2 = ({setCursorVariant}) => {
     <section className='parallax-img-section'> 
     </section>
 
-    {/* <div className='space'>
-    </div> */}
+
 
     <SocialsInfo setCursorVariant={setCursorVariant}/>
 
