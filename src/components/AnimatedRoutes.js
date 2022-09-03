@@ -37,7 +37,7 @@ const AnimatedRoutes = ({setCursorVariant}) => {
             }>
             </Route> */}
         
-            <Route path='/Bio' element={
+            <Route path='/About' element={
             <BioContainer setCursorVariant={setCursorVariant}/>
             }>
             </Route>

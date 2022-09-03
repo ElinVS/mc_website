@@ -20,9 +20,9 @@ const PressInfo = () => {
   return (
     <>
 
-    <div className='press-text-container'>
-        {quoteArray[currentText]}
-    </div>
+      <div className='press-text-container'>
+          <p> {quoteArray[currentText]} </p>
+      </div>
     
     </>
   )
