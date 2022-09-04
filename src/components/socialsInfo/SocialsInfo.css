@@ -30,7 +30,7 @@
     background-color: #f1efec;
     display: flex;
     justify-content: center;
-    z-index: 1;
+    
     
 }
 .div-bandcamp{
@@ -39,14 +39,14 @@
     background-color: #f1efec;
     display: flex;
     justify-content: center;
-    z-index: 1;
+    
 }
 .div-twitter{
     grid-area: twitter;
     background-color: #f1efec;
     display: flex;
     justify-content: center;
-    z-index: 1;
+   
 }
 .div-instagram{
     grid-area: instagram;
@@ -54,5 +54,5 @@
     background-color: #f1efec;
     display: flex;
     justify-content: center;
-    z-index: 1;
+    
 }

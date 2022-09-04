@@ -36,18 +36,6 @@ const BioContainer = () => {
           <p>His 'audio-visual opera' with Jules Rawlinson, for strings, clarinet, electronics and real-time visuals, 'A Requiem for Edward Snowden' was premiered to a sell-out crowd in October 2014, and has been performed at Glasgow CCA, Edinburgh Fringe Festival (as part of Made in Scotland Showcase 2015), Aberdeen Sound Festival and Utrecht's Gaudeamus Muziekweek (NL).</p>
         </div>
       </div>
-
-     
-
-      <div className='bio-container'>
-        <div className='portrait-img-container'>
-        </div>
-        <div className='portrait-text-container'>
-          <p>Collings's work contrasts the crushed guitars and textures of My Bloody Valentine or Sonic Youth with structures more akin to contemporary classical composers like Steve Reich or David Lang. In his powerful live performances, he uses the amplifier as an instrument and the guitar as a control device for innovative digital processes. Using numbers of 'prepared amplifiers', he coaxes unique sounds by placing bells, rice and wood directly onto the speaker cone and manipulating the physical vibrations with his fingers, producing a highly visual and physical performance. This music is textural, melodic and often sonically overwhelming.
-          </p>
-          <p>His 'audio-visual opera' with Jules Rawlinson, for strings, clarinet, electronics and real-time visuals, 'A Requiem for Edward Snowden' was premiered to a sell-out crowd in October 2014, and has been performed at Glasgow CCA, Edinburgh Fringe Festival (as part of Made in Scotland Showcase 2015), Aberdeen Sound Festival and Utrecht's Gaudeamus Muziekweek (NL).</p>
-        </div>
-      </div>
     
     </section>
     

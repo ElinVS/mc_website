@@ -6,3 +6,12 @@
     justify-content: center;
     align-items: center;
 }
+
+.circle{
+    width:300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: pink; 
+    /* box-shadow: 0px 40px 18px -8px  #121212; */
+    box-shadow: 0px 34px 18px 5px  #121212;
+}

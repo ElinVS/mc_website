@@ -21,7 +21,9 @@ const PressInfo = () => {
     <>
 
       <div className='press-text-container'>
+        <div className='press-text-div'>
           <p> {quoteArray[currentText]} </p>
+        </div>
       </div>
     
     </>

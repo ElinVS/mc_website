@@ -12,7 +12,7 @@ import HomePage2 from './containers/homepage/HomePage2'
 import BioContainer from './containers/bio/BioContainer';
 import ContactContainer from './containers/contact/ContactContainer';
 import ReleasesContainer from './containers/releases/ReleasesContainer';
-import InstallationsContainer from './containers/work/InstallationsContainer'
+
 
 import WorkContainer from './containers/work/WorkContainer';
 import FilmContainer from './containers/work/FilmContainer';

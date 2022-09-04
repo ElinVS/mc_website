@@ -34,6 +34,9 @@ const WorkContainer = () => {
       <Link className="work-links" to="/film"> Film </Link>             
       <Link className="work-links" to="/live"> Live  </Link>
       <Link className="work-links" to="/snowden"> Snowden  </Link>
+      <Link className="work-links" to="/thirdmind"> ThirdMind  </Link>
+
+      <div className='circle'/>
 
       
 

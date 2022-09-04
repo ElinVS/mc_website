@@ -1,0 +1,80 @@
+.third-mind-page{
+    min-height: 100vh;
+    background-color: #f1efec;
+    padding:1em;
+
+}
+
+.third-mind-grid-wrapper{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    
+
+}
+
+.third-mind-grid-one{
+    background-color: pink;
+    grid-area: 1 / 1 / 5 / 4;
+    background-image: url('/src/assets/thirdmind/foley_pebbles.jpg');
+    background-size: cover;
+    min-height: 300px;
+    
+}
+.third-mind-grid-two{
+    background-color: #f1efec;
+    grid-area: 1 / 4 / 9 / 8;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.2em;
+    padding:1em; 
+
+}
+.third-mind-grid-three{
+    background-color: pink;
+    grid-area: 1 / 8 / 5 / 11; 
+    background-image: url('/src/assets/thirdmind/foley_pebbles.jpg');
+    background-size: cover;
+
+}
+.third-mind-grid-four{
+    background-color: pink;
+    grid-area: 5 / 1 / 10 / 4; 
+
+}
+.third-mind-grid-five{
+    background-color: pink;
+    grid-area: 5 / 8 / 10 / 11; 
+
+}
+.third-mind-grid-six{
+    background-color: pink;
+    grid-area: 10 / 1 / 13 / 4;
+
+}
+.third-mind-grid-seven{
+    background-color: pink;
+    grid-area: 9 / 4 / 13 / 6;
+
+}
+.third-mind-grid-eight{
+    background-color: pink;
+    grid-area: 9 / 6 / 13 / 8;
+
+}
+.third-mind-grid-nine{
+    background-color: pink;
+    grid-area: 10 / 8 / 13 / 11; 
+
+}
+
+.div1 {  }
+.div2 {  }
+.div3 { }
+.div4 { }
+.div5 { }
+.div6 {  }
+.div7 {  }
+.div8 {  }
+.div9 { }
