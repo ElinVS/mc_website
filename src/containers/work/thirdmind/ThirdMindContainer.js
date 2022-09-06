@@ -7,7 +7,7 @@ const ThirdMindContainer = () => {
   return (
     <>
 
-      <Header/>
+      <Header text='THE THIRD MIND'/>
 
 
     <section className='third-mind-page'>

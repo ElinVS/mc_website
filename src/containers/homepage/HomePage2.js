@@ -19,7 +19,7 @@ const HomePage2 = ({setCursorVariant}) => {
       <title>Matthew Collings-Home</title>
     </Helmet>
 
-    <Header/>
+    <Header text= 'MATTHEW COLLINGS'/>
 
     <section className='textured-img-section'>
       <div className='textured-img-container'></div>

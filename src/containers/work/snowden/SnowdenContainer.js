@@ -17,7 +17,7 @@ const SnowdenContainer = () => {
       <title>Matthew Collings</title>
     </Helmet>
 
-    <Header/>
+    <Header text='REQUIEM FOR EDWARD SNOWDEN'/>
 
     <section className='snowden-page'>
       <div className='snowden-grid-wrapper'>

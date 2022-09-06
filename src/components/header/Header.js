@@ -2,7 +2,7 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import '../header/Header.css'
 
-const header = () => {
+const header = ({text}) => {
   
 
     const container = {
@@ -50,7 +50,7 @@ const header = () => {
                 
             <motion.h1 
                 className='h1-text'
-                variants={item}>MATTHEW COLLINGS</motion.h1>
+                variants={item}>{text}</motion.h1>
         </motion.div>
     
     </>
