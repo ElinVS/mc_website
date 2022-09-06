@@ -56,6 +56,8 @@
 .third-mind-grid-five{
     background-color: pink;
     grid-area: 5 / 8 / 10 / 11;
+    background-image: url('/src/assets/thirdmind/foley_niccolours.jpg');
+    background-size: cover;
  
     
 
@@ -70,7 +72,7 @@
 .third-mind-grid-seven{
     background-color: pink;
     grid-area: 10 / 3 / 13 / 7;
-    background-image: url('/src/assets/thirdmind/matt_laptop.jpg');
+    background-image: url('/src/assets/thirdmind/foley_feet_action.jpg');
     background-size: cover;
 
 }
