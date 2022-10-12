@@ -7,7 +7,7 @@ import HomePage2 from '../containers/homepage/HomePage2'
 
 import BioContainer from '../containers/bio/BioContainer';
 import ContactContainer from '../containers/contact/ContactContainer';
-import ReleasesContainer from '../containers/releases/ReleasesContainer';
+// import ReleasesContainer from '../containers/releases/ReleasesContainer';
 
 
 import WorkContainer from '../containers/work/WorkContainer';
@@ -15,6 +15,7 @@ import FilmContainer from '../containers/work/FilmContainer';
 import LiveContainer from '../containers/work/LiveContainer';
 import SnowdenContainer from '../containers/work/snowden/SnowdenContainer';
 import ThirdMindContainer from '../containers/work/thirdmind/ThirdMindContainer';
+import Realeses from '../containers/releases2/Realeses';
 
 const AnimatedRoutes = ({setCursorVariant}) => {
 
@@ -49,7 +50,7 @@ const AnimatedRoutes = ({setCursorVariant}) => {
             </Route>
         
             <Route path='/Releases'element={
-            <ReleasesContainer/>
+            <Realeses/>
             }>
             </Route>
 

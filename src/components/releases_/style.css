@@ -1,0 +1,49 @@
+.realeses-wrapper{
+    
+    background-color:#f1efec;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+}
+
+.releases-container-outer{
+    width: 50vh;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.releases-text-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #f1efec;
+    justify-content: center;
+    align-items: left;
+    width: 70vh;
+    height: 50vh; 
+    text-align: justify;
+    /* border-left: 1px solid black; */
+    /* border-right: 1px solid black; */
+    /* padding: 0 2rem 0 0; */
+    /* background-color: pink; */
+    
+    
+}
+
+
+.releases-info{
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;  
+}
+
+
+.realeses-header{
+    writing-mode: vertical-rl;
+    rotate: 180deg;
+    font-size: 2rem;
+   
+}
