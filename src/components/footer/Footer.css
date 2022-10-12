@@ -1,13 +1,17 @@
 .footer-section {
-    background-color: #ddd;
+    background-color:  #f1efec;
     min-height: 20vh;
-    
+    color: #CA5E48;
+    font-family: 'Heebo', sans-serif;
 }
 
 .footer-div{
     display:flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 3em 0 0 0;
-    
+    justify-content: space-between;
+    align-items: center; 
+    padding: 2em ; 
 }
+
+
+/* MEDIA QUERIES */
+

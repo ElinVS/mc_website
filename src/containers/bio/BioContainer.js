@@ -1,14 +1,73 @@
-import React, {useState, useEffect} from 'react'
+import React from 'react'
 import { Helmet } from 'react-helmet'
 
 import '../bio/Bio.css'
 
-import bioimages from '../../bioimages'
+import PressInfo from '../../components/pressInfo/PressInfo'
+
+const BioContainer = () => {
 
 
-const BioContainer = ({setCursorVariant}) => {
+  return (
+    <>
 
-  const [currentImage, setCurrentImage] = useState(0);
+    <Helmet>
+      <title>Matthew Collings - About</title>
+    </Helmet>
+
+    <section className='bio-page-section'>
+
+      {/* <header className='title-container-bio-c'>
+        <h1 id='h1-title-bio-c'>COLLINGS </h1>
+      </header>
+
+      <header className='title-container-bio'>
+        <h1 id='h1-title-bio'>MATTHEW </h1>
+      </header> */}
+      <PressInfo/>
+
+      <div className='bio-container'>
+        <div className='portrait-img-container'>
+        
+        </div>
+        <div className='portrait-text-container'>
+          <p>Collings's work contrasts the crushed guitars and textures of My Bloody Valentine or Sonic Youth with structures more akin to contemporary classical composers like Steve Reich or David Lang. In his powerful live performances, he uses the amplifier as an instrument and the guitar as a control device for innovative digital processes. Using numbers of 'prepared amplifiers', he coaxes unique sounds by placing bells, rice and wood directly onto the speaker cone and manipulating the physical vibrations with his fingers, producing a highly visual and physical performance. This music is textural, melodic and often sonically overwhelming.
+          </p>
+          <p>His 'audio-visual opera' with Jules Rawlinson, for strings, clarinet, electronics and real-time visuals, 'A Requiem for Edward Snowden' was premiered to a sell-out crowd in October 2014, and has been performed at Glasgow CCA, Edinburgh Fringe Festival (as part of Made in Scotland Showcase 2015), Aberdeen Sound Festival and Utrecht's Gaudeamus Muziekweek (NL).</p>
+        </div>
+      </div>
+    
+    </section>
+    
+    </> 
+  )
+}
+
+export default BioContainer
+
+
+
+
+// 
+
+
+
+
+ 
+
+    {/* <div className='bio-image-container'>
+        <img src={bioimages[currentImage]} className='bio-image'/>
+      </div> */}
+
+
+
+
+
+
+
+
+
+
 
 
   // useEffect (() => {
@@ -33,40 +92,3 @@ const BioContainer = ({setCursorVariant}) => {
   //   return () => clearInterval(imageId);
 
   // }, [])
-
-  useEffect (() => {
-    const imageId = setInterval (() => {
-      setCurrentImage((i) => {
-        return i === 1 ? 0 : i +1;
-      })
-    }, 1000)
-    return () => clearInterval(imageId)
-  }, []);
-
-
-  return (
-    <>
-
-    <Helmet>
-      <title>Matthew Collings - Bio</title>
-    </Helmet>
-
-    <section className='bio-page-section'>
-
-      <div className='bio-image-container'>
-        <img src={bioimages[currentImage]} className='bio-image'/>
-      </div>
-
-      <aside>
-        <p className='bio-text'>Lorem ipsum dolor sit amet. Est voluptatem reiciendis et iusto officiis ut rerum veniam. Ea labore sunt ex architecto fuga qui provident maiores a perferendis doloribus. Sed totam magnam ut nemo maiores hic voluptates odit. Est consequatur dolor hic optio veritatis et officia odit eum corporis enim eos vero vero quo soluta placeat. </p>
-        <p className='bio-text'>Eum tempora dolorum et repellat blanditiis aut architecto repellendus est nihil nihil. At delectus natus ut quasi omnis et praesentium consequatur id alias quod et inventore sequi a porro mollitia. </p>
-        <p className='bio-text'>Id eaque saepe ex neque exercitationem qui quasi autem sit quasi voluptates sed quos perspiciatis At doloribus nihil ut asperiores Quis. Est dolorum incidunt qui deserunt optio non modi quos qui culpa totam? Et distinctio deserunt aut galisum mollitia eum laboriosam accusantium et ipsum blanditiis et tempora repellat ut animi sint qui quasi atque. Ex porro quia et dolor perspiciatis id doloremque animi eos sunt doloremque qui error unde id nemo aliquid? </p>
-      </aside>
-
-    </section>
-    
-    </> 
-  )
-}
-
-export default BioContainer

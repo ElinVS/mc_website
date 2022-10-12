@@ -1,0 +1,87 @@
+.third-mind-page{
+    min-height: 100vh;
+    background-color: #f1efec;
+    padding:1em;
+
+}
+
+.third-mind-grid-wrapper{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    
+
+}
+
+.third-mind-grid-one{
+    grid-area: 1 / 1 / 5 / 6;
+    background-image: url('/src/assets/thirdmind/performance_colour_audience_above.jpg');
+    background-size: cover;  
+ 
+   
+}
+
+.third-mind-grid-two{
+    background-color: #f1efec;
+    grid-area: 1 / 6 / 5 / 11;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.3em;
+    padding:1em; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.third-mind-grid-three{
+    background-color: pink;
+    grid-area: 5 / 1 / 9 / 3; 
+    background-image: url('/src/assets/thirdmind/foley_pebbles.jpg');
+    background-size: cover;
+  
+
+}
+.third-mind-grid-four{
+    background-color: #121212;
+    grid-area: 5 / 3 / 10 / 8; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.third-mind-grid-five{
+    background-color: pink;
+    grid-area: 5 / 8 / 10 / 11;
+    background-image: url('/src/assets/thirdmind/foley_niccolours.jpg');
+    background-size: cover;
+ 
+    
+
+}
+.third-mind-grid-six{
+    background-color: pink;
+    grid-area: 9 / 1 / 13 / 3;
+    background-image: url('/src/assets/thirdmind/performance_bw_great.jpg');
+    background-size: cover;
+
+}
+.third-mind-grid-seven{
+    background-color: pink;
+    grid-area: 10 / 3 / 13 / 7;
+    background-image: url('/src/assets/thirdmind/foley_feet_action.jpg');
+    background-size: cover;
+
+}
+.third-mind-grid-eight{
+    background-color: pink;
+    grid-area: 10 / 7 / 13 / 11;
+    background-image: url('/src/assets/thirdmind/IMG_0222.JPG');
+    background-size: cover;
+
+}
+
+

@@ -11,12 +11,15 @@ font-family: 'Red Hat Display', sans-serif;
 font-family: 'Yatra One', cursive;
 font-family: 'Familjen Grotesk', sans-serif;
 font-family: 'Heebo', sans-serif;
+font-family: 'Shrikhand', cursive;
 
+font-family: 'Syne', sans-serif;
 - colour codes:
 
 #ddd    --> navbar
 #D5C3A7 --> matthew collings heading on homepage (font colour)
 #A3A09B --> background colour hompage
+#d7bd95 ---> collings
 
 
 colors from the texture photo:
@@ -32,6 +35,16 @@ Beigy Nude : #A69085
 Light Beige : #C1ADA6
 Greige : #A3A09B
 
+#f1efec - whitey-yella complimentary - #DBD6CF
+#C1BAA6 - isitgreenisityellow
+-----
+
+#CA5E48 - beautiful orange red
+
+------
+
+elin saving colours 
+84894A
 
 
 

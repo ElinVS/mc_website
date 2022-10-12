@@ -1,38 +1,102 @@
 .bio-page-section {
-    background-color: #ddd;
     min-height: 100vh;
-    display: flex;
-   flex-direction: row;
+    background-color:#f1efec;
+    padding: 0 0 1em 0;
+}
+
+/* header section here */
+
+.title-container-bio{
+    min-height: 20vh;
+    background-color:#f1efec;
+    display:flex;
     justify-content: center;
     align-items: center;
+    padding: 0 0 0 1.8em;  
 }
 
-aside{
-    /* border: 1px solid #121212; */
-    margin: -12em 5em 0 2em;   
+.title-container-bio-c{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 0 0 1.8em;
+    position:fixed; 
 }
 
-.bio-text{
-    font-family: 'Heebo', sans-serif;
-    font-size: 1em;
+#h1-title-bio{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.6em;
+    color: #CA5E48;
+    white-space: none;
+    transform: rotate(-90deg) translateY(100%);
+    transform-origin:bottom left;
+    left:0;
+    bottom: 0;
+    max-width: 100vh;
+    min-height:100vh;
+    position:fixed;
 }
 
-
-/* image styling here */
-
-.bio-image-container {
-
-    width: 600px;
-    height:600px;
-    margin: 0 0 0 5em;
-}
-
-.bio-image{
-    width: 600px;
-    height:600px;
+#h1-title-bio-c{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 0.6em;
+    color: #CA5E48;
+    white-space: none;
     
 }
 
 
-/* animations here */
+
+/*  */
+
+.bio-container{
+    display:flex;
+    justify-content: space-evenly;  
+}
+
+.portrait-img-container{
+    background-image: url('/src/assets/images/wallshadows.jpeg');
+    background-size: cover;
+    
+    width:500px;
+    height:500px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.06em;
+    padding: 1em;
+    text-align: center;
+    
+}
+
+.portrait-text-container{
+    background-color: #f1efec;
+    width:500px;
+    height:500px;
+    display:flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.06em;
+    padding: 1em;
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
 

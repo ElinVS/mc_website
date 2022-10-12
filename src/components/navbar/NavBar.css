@@ -1,26 +1,30 @@
 .navbar{
     padding:0px;
-    margin:0px;
-    
+    margin:0px; 
+    width:100%;
+    position:fixed;
+    z-index:50;
+   
 }
 
 
 .navbar-container {
     display:flex;
     justify-content: space-between;
-    padding: 5em 1em 1em 1em;
-    background-color:  #ddd;
+    padding: 1em;
+    /* background-color: #f1efec; */
     
-   
 }
 
 .navbar-links{
-    color:#121212;
+    color: #121212;
+    mix-blend-mode: difference;
     font-size: 1em;
     list-style: none;
     text-decoration: none;
     font-family: 'Familjen Grotesk', sans-serif;
-    mix-blend-mode:luminosity ;
+    /* mix-blend-mode:luminosity ;  */
+    
 }
 
 
@@ -31,6 +35,11 @@
     text-decoration: none;
     font-family: 'Familjen Grotesk', sans-serif;
 }
+
+
+
+
+
 
 
 

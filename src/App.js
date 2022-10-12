@@ -4,21 +4,25 @@ import { useEffect, useState } from 'react';
 
 import './App.css';
 
-import HomePage from './containers/homepage/HomePage';
 import NavBar from './components/navbar/NavBar';
-import Footer from './components/footer/Footer';
+
+import HomePage from './containers/homepage/HomePage';
+import HomePage2 from './containers/homepage/HomePage2'
 
 import BioContainer from './containers/bio/BioContainer';
 import ContactContainer from './containers/contact/ContactContainer';
 import ReleasesContainer from './containers/releases/ReleasesContainer';
-import InstallationsContainer from './containers/InstallationsContainer'
+
 
 import WorkContainer from './containers/work/WorkContainer';
 import FilmContainer from './containers/work/FilmContainer';
 import LiveContainer from './containers/work/LiveContainer';
-import SnowdenContainer from './containers/work/SnowdenContainer';
+import SnowdenContainer from './containers/work/snowden/SnowdenContainer';
 
 import Cursor from './components/cursor/Cursor';
+import BackToTop from './components/backToTop/BackToTop'
+
+import AnimatedRoutes from './components/AnimatedRoutes';
 
 
 
@@ -56,17 +60,27 @@ function App() {
   <Router>
 
   
-   
-
   <NavBar setCursorVariant={setCursorVariant}/>
   <Cursor mousePosition={mousePosition} cursorVariant={cursorVariant}/>
+  {/* <BackToTop/>  */}
 
-    <Routes>
+  <AnimatedRoutes setCursorVariant={setCursorVariant}/>
+
+    {/* <Routes>
     
   <Route exact path='/' element={
-    <HomePage setCursorVariant={setCursorVariant}/>
+    <HomePage2 setCursorVariant={setCursorVariant}/>
+    
   }>
    </Route>
+
+  <Route  path='/Home' element={
+    <HomePage setCursorVariant={setCursorVariant}/>
+    
+  }>
+   </Route>
+
+
 
   <Route path='/Bio' element={
     <BioContainer setCursorVariant={setCursorVariant}/>
@@ -74,7 +88,7 @@ function App() {
   </Route>
   
   <Route path='/Contact' element={
-    <ContactContainer/>
+    <ContactContainer setCursorVariant={setCursorVariant}/>
   }>
   </Route>
 
@@ -108,17 +122,13 @@ function App() {
     <SnowdenContainer/>
   }>
   </Route> 
-  
 
-    </Routes>
+  </Routes> */}
 
-    <Footer/>
-
-  
 
   </Router>
 
-
+ 
 
  
 

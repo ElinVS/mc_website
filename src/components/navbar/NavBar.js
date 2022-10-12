@@ -24,7 +24,7 @@ const NavBar = ({ setCursorVariant}) => {
         </div>
 
         <div className='navbar-right'>
-          <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links" to="/bio"> BIO </Link> 
+          <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links" to="/about"> ABOUT </Link> 
           <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links" to="/contact"> CONTACT </Link> 
           <a onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links"> STORE </a> 
           <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links" to="/releases"> RELEASES </Link> 

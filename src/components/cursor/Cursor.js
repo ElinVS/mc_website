@@ -20,8 +20,14 @@ const Cursor = ({mousePosition, cursorVariant}) => {
             backgroundColor:'#fff', 
             mixBlendMode:'difference'
         },
-
-
+        textContact:{
+            height:150,
+            width:150,
+            x: mousePosition.x - 75,
+            y: mousePosition.y - 75,
+            backgroundColor:'#fff', 
+            mixBlendMode:'difference'
+        }
     }
 
   return (

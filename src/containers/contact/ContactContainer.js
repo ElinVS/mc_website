@@ -1,10 +1,19 @@
-import React, {useState}from 'react'
+import React from 'react'
+
 import { Helmet } from 'react-helmet'
+import { motion } from 'framer-motion'
+
+
 import '../contact/Contact.css'
 
+import Footer from '../../components/footer/Footer'
+import ContactInfo from '../../components/contactInfo/ContactInfo'
+import MusicBlobs from '../../components/musicBlobs/MusicBlobs'
 
 
-const ContactContainer = () => {
+
+const ContactContainer = ({setCursorVariant}) => {
+
 
 
 
@@ -14,22 +23,10 @@ const ContactContainer = () => {
     <Helmet>
       <title>Matthew Collings - Contact</title>
     </Helmet>
-    
-    <section className='contactpage-section-one'>
 
-      <div className='contact-div-one'>
-        <p  id='contact-text-one'>GET IN TOUCH</p>
-      </div>
-
-      <div className='contact-div-two'>
-        <p id='contact-text-one'>FOR BOOKINGS CLICK HERE</p>
-      </div>
-      
-      <div className='contact-div-two'>
-        <p id='contact-text-one'>FOR BOOKINGS CLICK HERE</p>
-      </div>
-
-    </section>
+    <ContactInfo setCursorVariant={setCursorVariant}/>
+    {/* <MusicBlobs/> */}
+    <Footer/>
 
     </>
   )

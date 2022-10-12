@@ -1,0 +1,43 @@
+.short-bio-section{
+    min-height: 100vh;
+    background-color:#f1efec;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+   
+}
+
+.short-bio-container-outer{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.short-bio-container-inner{
+    width: 500px;
+    height: 700px;
+    background-image: url('/src/assets/thirdmind/matt_jag_spotlight.jpg');
+    background-size: cover;
+
+}
+
+
+.short-bio-text-container{
+    display: flex;
+    background-color: #f1efec;
+    justify-content: center;
+    align-items: flex-start;
+    width: 500px;
+    height: 700px;  
+    
+}
+
+.short-bio-text{
+    font-family: 'Heebo', sans-serif;
+    font-size: 2rem;  
+}

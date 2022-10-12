@@ -1,5 +1,11 @@
+/* 
 
-/* homepage sections here */
+
+
+
+
+
+
 
 
 .homepage-section-one{
@@ -15,16 +21,21 @@
     justify-content: center;
 }
 
-.homepage-section-two{
+.homepage-section-short-bio{
     min-height: 50vh; 
     display:flex;
+    flex-flow: wrap;
     justify-content: center;
     align-items: center;
-    background-color:  #A3A09B;
+    background-color: #C5BA99;
+    
+    
 }
 
+
 .homepage-section-three{
-    background-color: #A3A09B;
+  background-color: #C1BAA6;
+  
 }
 
 .homepage-section-four{
@@ -39,11 +50,12 @@
 }
 
 .homepage-section-five{
-    display:flex;
-    justify-content: center;;
     min-height: 10vh;
     background-color: #F1F3F4;
     cursor:none;
+    
+    
+
     
 }
 
@@ -53,23 +65,22 @@
 }
 
 .homepage-section-six{
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+    display: grid;
+    grid-template-columns: 100%;
     min-height: 100vh;
-    background-color: #D5C3A7;
+    background-color: #f1efec;
     font-family: 'Heebo', sans-serif;
     font-size: 5rem;
+   
   
 }
 
 .letter-section-div-one{
     display:flex;
     align-items: center; 
-    font-family: 'Familjen Grotesk', sans-serif;
-    color: #D5C3A7;
+    font-family: 'Heebo', sans-serif;
+    color:#d7bd95;
+
     padding-bottom: 20em;   
 }
 
@@ -80,27 +91,48 @@
     line-height: 20vh;
     letter-spacing: 0.01em;
     mix-blend-mode: difference;
+    animation: fadeIn 3s 1 forwards ease;
+
+
 }
 
 
 #collings-text{
     color: #d7bd95;
+    
+
 }
 
 .navbar-links-second{
     text-decoration: none;
     color:  #806760 ;
+    padding: 0 0 0 1em;
+}
+
+.bio-div{
+  border-bottom: #806760 1px solid;
+  grid-template-areas: bio;
+  
+}
+
+.short-intro-bio{
+  color: #121212;
+  font-family: 'Heebo', sans-serif;
+  transition: transform 1s ease;
+  transform:  opacity(1);
+  
+
 }
 
 
 
-/* image styling here */
 
 
 .img-container-guitar{
     display:flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center; 
+   
 }
 
 .matt-jag-spotlight-img{
@@ -116,7 +148,7 @@
 }
 
 
-/* animations here */
+
 
   @keyframes bounce {
     from {
@@ -127,10 +159,7 @@
     }
   }
 
-   /* animation:
-    bounce 2000ms
-    alternate infinite
-    cubic-bezier(.2, .65, .6, 1); */
+   
 
 
   @keyframes movein {
@@ -142,25 +171,49 @@
     }
   }
 
-    /* animation-name: movein;
+    animation-name: movein;
     display: inline-block;
-    transform: translateX(-100%);  */
-    /* animation-duration: 20s;
+    transform: translateX(-100%);  
+     animation-duration: 20s;
     
     animation-iteration-count: infinite;
-    /* filter: hue-rotate(130deg) contrast(30%) brightness(120%); */
+    filter: hue-rotate(130deg) contrast(30%) brightness(120%); 
  
   
 
+@keyframes rotate {
+  from{
+    transform: rotateY(50deg);
 
+  }
+  to{
+    transform: rotateY(180deg);
 
-
-
-
-
-
-
-
-
-
+  }
   
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  .test{
+    min-height:100vh;
+    background-color: pink;
+  } */
