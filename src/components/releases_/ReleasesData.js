@@ -9,6 +9,16 @@ export const RealesesData = {
         player:  'https://soundcloud.com/denovali/matthew-collings-vasilia?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
 
 
+    },
+    
+    hello_darkness: {
+        title: 'hello darkness',
+        year: '2016',
+        info: 'After his highly acclaimed „A Requiem For Edward Snowden“ LP, Matthew Collings returns with a collaboration with Swedish sound artist Dag Rosenqvist. „Hello Darkness“ is dark and it is bleak and it’s fragmented. It feels like those days when you want to just annihilate everything, and then stare at a river. It demands your attention. It sounds like it’s breaking from the inside. It’s serious. And not.',
+        player:  'https://soundcloud.com/denovali/dag-rosenqvist-matthew-collings-streets?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+
+
+
     }
 
 }

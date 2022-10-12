@@ -23,6 +23,7 @@ import Cursor from './components/cursor/Cursor';
 import BackToTop from './components/backToTop/BackToTop'
 
 import AnimatedRoutes from './components/AnimatedRoutes';
+import Footer from './components/footer/Footer'
 
 
 
@@ -65,6 +66,8 @@ function App() {
   {/* <BackToTop/>  */}
 
   <AnimatedRoutes setCursorVariant={setCursorVariant}/>
+
+  <Footer/>
 
     {/* <Routes>
     

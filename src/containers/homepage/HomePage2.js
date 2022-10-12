@@ -1,7 +1,7 @@
 import React from 'react'
 import {Helmet} from 'react-helmet'
 
-import Footer from '../../components/footer/Footer'
+
 import '../homepage/HomePage2.css'
 import Header from '../../components/header/Header'
 import ShortBio from '../../components/shortBio/ShortBio'
@@ -32,7 +32,7 @@ const HomePage2 = ({setCursorVariant}) => {
 
     <SocialsInfo setCursorVariant={setCursorVariant}/>
 
-    <Footer/>
+    
   
   </>
   )

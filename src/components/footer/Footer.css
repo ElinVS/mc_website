@@ -1,15 +1,22 @@
 .footer-section {
     background-color:  #f1efec;
-    min-height: 20vh;
+    /* min-height: 20vh; */
     color: #CA5E48;
     font-family: 'Heebo', sans-serif;
-}
-
-.footer-div{
     display:flex;
     justify-content: space-between;
-    align-items: center; 
-    padding: 2em ; 
+    align-items: bottom;
+    padding: 1em 1em 0em 1em ;
+  
+ 
+   
+}
+
+.footer-div-right , .footer-div-left{
+    display: flex;
+    align-items: center;
+    margin: 0 0 1em 0; 
+
 }
 
 

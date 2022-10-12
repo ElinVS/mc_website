@@ -2,11 +2,11 @@
 
 .contact-page{
     background-color: #f1efec;
-    padding: 1em;
-    min-height: 70vh;
+    min-height:56.8vh;
     display:flex;
     flex-direction: row;
     justify-content: center;
+    
     padding: 16em 0 0 0;
 }
 

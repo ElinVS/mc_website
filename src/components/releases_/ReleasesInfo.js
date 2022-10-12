@@ -29,7 +29,6 @@ const ReleasesInfo = ({text}) => {
                   sharing: false,
                   controls: false }
                 }}} />
-            
         </div>
 
         <div
@@ -41,6 +40,45 @@ const ReleasesInfo = ({text}) => {
                 >{RealesesData.splintered.info}</p>
         </div>
         </section>
+
+        {/*  */}
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        
+
+          <section className='realeses-wrapper'>
+            <div 
+              className='releases-container-outer'
+              >
+                  {/* <header className='realeses-header'>
+                    {RealesesData.hello_darkness.title}
+                  </header> */}
+
+              <ReactPlayer  className = 'react-player'
+              url = {RealesesData.hello_darkness.player}
+              width = '300px'
+              height = '300px'
+              config={{
+                soundcloud: {
+                    options: { 
+                    sharing: false,
+                    controls: false }
+                  }}} />
+          </div>
+
+          <div
+              className='releases-text-container'
+              >
+                <h1>{RealesesData.hello_darkness.title}</h1>
+                
+                  <p
+                      className='releases-info'
+                  >{RealesesData.hello_darkness.info}</p>
+          </div>
+          </section>
 
 
 

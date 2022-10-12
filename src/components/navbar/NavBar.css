@@ -1,9 +1,10 @@
 .navbar{
     padding:0px;
     margin:0px; 
-    width:100%;
+    width:100%; 
     position:fixed;
     z-index:50;
+   
    
 }
 
@@ -12,28 +13,36 @@
     display:flex;
     justify-content: space-between;
     padding: 1em;
+    margin: 1em 0em 0em 0em;
     /* background-color: #f1efec; */
     
 }
 
-.navbar-links{
+
+
+
+.navbar-links, .work-links{
     color: #121212;
     mix-blend-mode: difference;
     font-size: 1em;
     list-style: none;
     text-decoration: none;
-    font-family: 'Familjen Grotesk', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase ;
     /* mix-blend-mode:luminosity ;  */
     
 }
 
 
 #home-link{
-    color:#121212;
+    color:#CA5E48;
     font-size: 1.1em;
     list-style: none;
     text-decoration: none;
-    font-family: 'Familjen Grotesk', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase ;
 }
 
 

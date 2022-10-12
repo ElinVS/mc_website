@@ -1,11 +1,12 @@
 
 .h1-container{
-    min-height: 20vh;
+    min-height: 24vh;
     background-color:#f1efec;
     display:flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: bottom;
     padding: 0 0 0 1.8em;
+   
 }
 
 .h1-text{
@@ -16,4 +17,5 @@
     color: #f1efec;
     mix-blend-mode: difference;
     white-space: none; 
+    text-transform: uppercase;
 }

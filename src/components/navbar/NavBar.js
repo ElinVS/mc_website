@@ -1,8 +1,10 @@
-import React from 'react'
+import React, {useState}from 'react'
 import {Link} from "react-router-dom"
 import '../navbar/NavBar.css'
 
 const NavBar = ({ setCursorVariant}) => {
+
+  const [toggleNav, setToggleNav] = useState(false)
 
   const textEnter = () => {
     setCursorVariant('textNavBar');
@@ -28,7 +30,16 @@ const NavBar = ({ setCursorVariant}) => {
           <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links" to="/contact"> CONTACT </Link> 
           <a onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links"> STORE </a> 
           <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links" to="/releases"> RELEASES </Link> 
-          <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links" to="/work"> WORK  </Link>           
+
+          <Link className="work-links" to="/film"> Film </Link>             
+          <Link className="work-links" to="/live"> Live  </Link>
+          <Link className="work-links" to="/snowden"> Snowden  </Link>
+          <Link className="work-links" to="/thirdmind"> ThirdMind  </Link>
+          
+      
+
+
+
         </div>    
 
       </div>
