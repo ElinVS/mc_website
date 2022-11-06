@@ -28,13 +28,13 @@ const NavBar = ({ setCursorVariant}) => {
         <div className='navbar-right'>
           <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links" to="/about"> ABOUT </Link> 
           <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links" to="/contact"> CONTACT </Link> 
-          <a onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links"> STORE </a> 
+          <a href='https://matthewcollings.bandcamp.com/' target='_blank' rel="noreferrer" onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links"> STORE </a> 
           <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="navbar-links" to="/releases"> RELEASES </Link> 
 
-          <Link className="work-links" to="/film"> Film </Link>             
-          <Link className="work-links" to="/live"> Live  </Link>
-          <Link className="work-links" to="/snowden"> Snowden  </Link>
-          <Link className="work-links" to="/thirdmind"> ThirdMind  </Link>
+          {/* <Link className="work-links" to="/film"> Film </Link>             
+          <Link className="work-links" to="/live"> Live  </Link> */}
+          <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="work-links" to="/snowden"> Snowden  </Link>
+          <Link onMouseEnter={textEnter} onMouseLeave={textLeave} className="work-links" to="/thirdmind"> ThirdMind  </Link>
           
       
 

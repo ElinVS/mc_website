@@ -10,7 +10,7 @@ const Footer = () => {
           <p> &#169;Matthew Collings 2022 </p>
         </div>
         <div className='footer-div-right'>
-          <p> Design & Code By ... </p>
+          <p> Design & Code By Elin Svennberg</p>
         </div>  
          
        

@@ -17,13 +17,6 @@ const BioContainer = () => {
 
     <section className='bio-page-section'>
 
-      {/* <header className='title-container-bio-c'>
-        <h1 id='h1-title-bio-c'>COLLINGS </h1>
-      </header>
-
-      <header className='title-container-bio'>
-        <h1 id='h1-title-bio'>MATTHEW </h1>
-      </header> */}
       <PressInfo/>
 
       <div className='bio-container'>

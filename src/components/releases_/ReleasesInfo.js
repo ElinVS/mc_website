@@ -12,12 +12,11 @@ const ReleasesInfo = ({text}) => {
       <Header text = 'Releases'/>
 
         <section className='realeses-wrapper'>
-          <div 
+
+        <div 
             className='releases-container-outer'
             >
-                <header className='realeses-header'>
-                  {RealesesData.splintered.title}
-                </header>
+               
 
             <ReactPlayer  className = 'react-player'
             url = {RealesesData.splintered.player}
@@ -34,11 +33,17 @@ const ReleasesInfo = ({text}) => {
         <div
             className='releases-text-container'
             >
+             <h1>{RealesesData.splintered.title}</h1>
               
                 <p
                     className='releases-info'
                 >{RealesesData.splintered.info}</p>
         </div>
+
+      
+
+
+
         </section>
 
         {/*  */}

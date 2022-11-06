@@ -13,8 +13,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
     
 }
 
@@ -27,9 +27,9 @@
     width: 70vh;
     height: 50vh; 
     text-align: justify;
-    /* border-left: 1px solid black; */
-    /* border-right: 1px solid black; */
-    /* padding: 0 2rem 0 0; */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 0 2rem 0 0;
     /* background-color: pink; */
     
 }

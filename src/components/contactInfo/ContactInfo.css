@@ -43,7 +43,7 @@
    letter-spacing: 0.2em;    
 }
 
-.contact-page-email{
+.contact-page-email > a{
     color: #CA5E48;
     font-family: 'Heebo', sans-serif;
     font-size: 1rem;

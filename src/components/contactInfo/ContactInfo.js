@@ -46,16 +46,6 @@ const ContactInfo = ({setCursorVariant}) => {
 
     <motion.section 
       className='contact-page'
-      // initial={{width:0}}
-      // animate={{width:"100%"}}
-      // exit={{x: window.innerWidth}}
-      // transition={{
-      //   duration: 1,
-      //   type: "tween",
-      //   ease: "easeIn",
-       
-      // }}
-    
     >
       <div className='contact-page-wrapper'>
         <motion.div className='contact-container-general'
@@ -68,7 +58,10 @@ const ContactInfo = ({setCursorVariant}) => {
             className='contact-page-text'
             variants={item}
             >GENERAL ENQUIRES</motion.p>
-              <p  onMouseEnter={textEnter} onMouseLeave={textLeave} className='contact-page-email'>mlscollings@gmail.com</p>
+              <p  className='contact-page-email'
+               onMouseEnter={textEnter} 
+               onMouseLeave={textLeave}
+              ><a href='mailto:mlscollings@gmail.com'>mlscollings@gmail.com</a></p>
           </motion.div>
 
           <motion.div 
@@ -77,13 +70,16 @@ const ContactInfo = ({setCursorVariant}) => {
             initial='initial'
             animate='show'
             >
-              <p onMouseEnter={textEnter} onMouseLeave={textLeave} className='contact-page-email'>denovalirecords@gmail.com </p>
+              <p 
+              onMouseEnter={textEnter} onMouseLeave={textLeave} 
+              className='contact-page-email'>
+                <a href='mailto:denovalirecords@gmail.com'>denovalirecords@gmail.com</a> </p>
           <motion.p 
             className='contact-page-text'
             variants={item}
             >BOOKINGS CONTACT </motion.p>
           </motion.div>
-        </div>
+      </div>
 
     </motion.section>
     

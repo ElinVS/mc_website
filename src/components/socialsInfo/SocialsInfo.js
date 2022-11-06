@@ -61,26 +61,26 @@ const SocialsInfo = ({setCursorVariant}) => {
         <motion.p 
             className='socials-text'
             variants={item}
-            > SPOTIFY
+            ><a href='https://open.spotify.com/artist/4xPxOC7r1FDBvjSjmnaRLp?si=guqkRmV9SiSc3lrqEHZTXQ' target='_blank' rel="noreferrer">SPOTIFY</a>
         </motion.p>
         </div>
         <div className='div-bandcamp'>
           <motion.p 
           className='socials-text'
           variants={item}
-          >BANDCAMP</motion.p>
+          ><a href='https://matthewcollings.bandcamp.com/' target='_blank' rel="noreferrer">BANDCAMP</a>  </motion.p>
         </div>
         <div className='div-twitter'>
           <motion.p 
           className='socials-text'
           variants={item}
-          >TWITTER</motion.p>
+          ><a href='https://twitter.com/mlscollings' target='_blank' rel="noreferrer">TWITTER</a></motion.p>
         </div>
         <div className='div-instagram'>
           <motion.p 
           className='socials-text'
           variants={item}
-          >INSTAGRAM</motion.p>
+          ><a href='https://www.instagram.com/matthew_collings/' target='_blank' rel="noreferrer">INSTAGRAM</a></motion.p>
         </div>
       </motion.div>
     </section>

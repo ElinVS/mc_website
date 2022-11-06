@@ -14,12 +14,8 @@
     justify-content: space-between;
     padding: 1em;
     margin: 1em 0em 0em 0em;
-    /* background-color: #f1efec; */
-    
+
 }
-
-
-
 
 .navbar-links, .work-links{
     color: #121212;
@@ -30,13 +26,11 @@
     font-family: 'Heebo', sans-serif;
     font-weight: 600;
     text-transform: uppercase ;
-    /* mix-blend-mode:luminosity ;  */
-    
+
 }
 
-
 #home-link{
-    color:#CA5E48;
+    color:#121212;
     font-size: 1.1em;
     list-style: none;
     text-decoration: none;

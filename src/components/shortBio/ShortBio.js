@@ -62,7 +62,7 @@ const ShortBio = () => {
                 <motion.p
                     className='short-bio-text'
                     variants={item}
-                >Lorem ipsum dolor sit amet. Est voluptatem reiciendis et iusto officiis ut rerum veniam. Ea labore sunt ex architecto fuga qui provident maiores a perferendis doloribus.</motion.p>
+                >Collings's work contrasts the crushed guitars and textures of My Bloody Valentine or Sonic Youth with structures more akin to contemporary classical composers like Steve Reich or David Lang. In his powerful live performances, he uses the amplifier as an instrument and the guitar as a control device for innovative digital processes.  </motion.p>
         </motion.div>
         </section>
     </>

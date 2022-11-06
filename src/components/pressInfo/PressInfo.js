@@ -11,7 +11,7 @@ const PressInfo = () => {
         setCurrentText((i) => {
           return i === 10 ? 0 : i +1;
         })
-      }, 8000)
+      }, 2500)
       return () => clearInterval(textId)
     }, []);
 

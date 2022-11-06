@@ -4,51 +4,6 @@
     padding: 0 0 1em 0;
 }
 
-/* header section here */
-
-.title-container-bio{
-    min-height: 20vh;
-    background-color:#f1efec;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 0 0 1.8em;  
-}
-
-.title-container-bio-c{
-    display:flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0 0 0 1.8em;
-    position:fixed; 
-}
-
-#h1-title-bio{
-    font-family: 'Familjen Grotesk', sans-serif;
-    font-size: 4rem;
-    letter-spacing: 0.6em;
-    color: #CA5E48;
-    white-space: none;
-    transform: rotate(-90deg) translateY(100%);
-    transform-origin:bottom left;
-    left:0;
-    bottom: 0;
-    max-width: 100vh;
-    min-height:100vh;
-    position:fixed;
-}
-
-#h1-title-bio-c{
-    font-family: 'Familjen Grotesk', sans-serif;
-    font-size: 4rem;
-    letter-spacing: 0.6em;
-    color: #CA5E48;
-    white-space: none;
-    
-}
-
-
-
 /*  */
 
 .bio-container{
@@ -57,7 +12,7 @@
 }
 
 .portrait-img-container{
-    background-image: url('/src/assets/images/wallshadows.jpeg');
+    background-image: url('/src/assets/thirdmind/matt_tweak_01.jpg');
     background-size: cover;
     
     width:500px;
